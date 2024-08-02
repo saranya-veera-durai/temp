@@ -1,0 +1,453 @@
+"""insurancedata"".""applist_address"";",,,,
+_id,>,VARCHAR,>,Num-null
+addressline1,>,VARCHAR,>,
+addressline2,>,VARCHAR,>,
+addresstype,>,VARCHAR,>,
+city,>,VARCHAR,>,
+copiedapplicantaddress,>,VARCHAR,>,Full-null
+country,>,VARCHAR,>,
+destinationaddress,>,VARCHAR,>,
+distancefrom,>,INTEGER,>,
+district,>,VARCHAR,>,Full-null
+landline,>,VARCHAR,>,Num-null
+landmark,>,VARCHAR,>,
+latitude,>,INTEGER,>,
+line3,>,VARCHAR,>,Full-null
+line4,>,VARCHAR,>,Full-null
+locality,>,VARCHAR,>,Full-null
+longitude,>,INTEGER,>,
+mailingaddress,>,VARCHAR,>,
+monthataddress,>,INTEGER,>,
+monthatcity,>,INTEGER,>,
+negativearea,>,VARCHAR,>,Full-null
+negativeareanotapplicableflag,>,VARCHAR,>,
+negativeareareason,>,VARCHAR,>,Full-null
+officetype,>,VARCHAR,>,Full-null
+outofgeolimit,>,VARCHAR,>,Full-null
+pin,>,INTEGER,>,
+rentamount,>,INTEGER,>,
+residenceaddresstype,>,VARCHAR,>,
+sameasabove,>,VARCHAR,>,
+sameasapplicant,>,VARCHAR,>,
+sameoffice,>,VARCHAR,>,
+samepermanent,>,VARCHAR,>,
+sameresi,>,VARCHAR,>,
+serviceablepin,>,VARCHAR,>,Full-null
+state,>,VARCHAR,>,
+timeataddress,>,INTEGER,>,
+topsevencity,>,VARCHAR,>,Full-null
+yearatcity,>,INTEGER,>,
+,,,,
+,,,,
+"""insurancedata"".""applist_bankingdetails"";",,,,
+,,,,
+_id,>,INTEGER,>,
+accountnumber,>,VARCHAR,>,Num null
+accounttype,>,VARCHAR,>,Full null
+avgbankbalance,>,INTEGER,>,
+bankname,>,VARCHAR,>,
+bankingtype,>,VARCHAR,>,
+branchname,>,VARCHAR,>,
+deductedemiamt,>,INTEGER,>,
+existingemi,>,VARCHAR,>,Full null
+ifsccode,>,VARCHAR,>,
+mentionamount,>,INTEGER,>,
+remarks,>,VARCHAR,>,Full null
+salaryaccount,>,VARCHAR,>,
+selected,>,VARCHAR,>,
+status,>,VARCHAR,>,Full null
+yearheld,>,INTEGER,>,
+firstname,>,VARCHAR,>,Full null
+lastname,>,VARCHAR,>,Full null
+middlename,>,VARCHAR,>,Full null
+addressline1,>,VARCHAR,>,
+addressline2,>,VARCHAR,>,Full null
+city,>,VARCHAR,>,Full null
+country,>,VARCHAR,>,
+distancefrom,>,VARCHAR,>,Num null
+landlinenumber,>,VARCHAR,>,Full null
+line3,>,VARCHAR,>,Full null
+line4,>,VARCHAR,>,Full null
+pin,>,VARCHAR,>,Num null
+sameasapplicant,>,VARCHAR,>,
+state,>,VARCHAR,>,Full null
+,,,,
+,,,,
+,,,,
+"""insurancedata"".""applist_eligibilitydetails""",,,,
+_id,>,INTEGER,>,
+pf,>,VARCHAR,>,Num null
+eligibilitydetails_id,>,VARCHAR,>,Full null
+appliedloan,>,INTEGER,>,
+appliedtenor,>,INTEGER,>,
+aprvloan,>,INTEGER,>,
+balenceemi,>,INTEGER,>,
+bankingthroughput,>,INTEGER,>,
+borrowingturnoverratio,>,INTEGER,>,
+combineddbr,>,INTEGER,>,
+combinedltv,>,INTEGER,>,
+creditcardoutstanding,>,INTEGER,>,
+creditordays,>,INTEGER,>,
+currentratio,>,INTEGER,>,
+customerirr,>,INTEGER,>,
+debtordays,>,INTEGER,>,
+debttoequity,>,INTEGER,>,
+devamt,>,INTEGER,>,
+dscr,>,INTEGER,>,
+elgfixedobg,>,INTEGER,>,
+elgfixedoblg,>,INTEGER,>,
+elglnamt,>,INTEGER,>,
+elgtenor,>,INTEGER,>,
+eligibilityasfoir,>,INTEGER,>,
+eligibilityroi,>,INTEGER,>,
+elidetails_emi,>,INTEGER,>,
+finalamtlacks,>,INTEGER,>,
+finalfoir,>,VARCHAR,>,int deci
+fixedoblgation,>,INTEGER,>,
+foir,>,INTEGER,>,
+grossincome,>,INTEGER,>,
+grouptotalexposure,>,INTEGER,>,
+hlflag,>,VARCHAR,>,
+elidetails_income,>,INTEGER,>,
+institutionid,>,VARCHAR,>,Full null
+insurenceamt,>,INTEGER,>,
+isexistingloan,>,VARCHAR,>,
+marginroi,>,INTEGER,>,
+monthlysalary,>,INTEGER,>,
+multiplier,>,INTEGER,>,
+noofadvemis,>,INTEGER,>,
+policyfoir,>,INTEGER,>,
+proposedsanctionamount,>,INTEGER,>,
+roi,>,INTEGER,>,
+takeoveramount,>,INTEGER,>,
+tenor,>,INTEGER,>,
+totalexposure,>,INTEGER,>,
+totalmarketvalue,>,INTEGER,>,
+totalroi,>,INTEGER,>,
+triggersobredeviation,>,VARCHAR,>,
+valuation,>,INTEGER,>,
+eligibilityamount,>,INTEGER,>,
+eligibilityname,>,VARCHAR,>,
+eligibletenor,>,INTEGER,>,
+elioffer_emi,>,INTEGER,>,
+fixedobligations,>,INTEGER,>,
+elioffer_income,>,INTEGER,>,
+selectedoffer,>,VARCHAR,>,
+,,,,
+,,,,
+,,,,
+"""insurancedata"".""applist_eligible_incomedetailist"";",,,,
+_id,>,INTEGER,>,
+eligibilitydetails_id,>,INTEGER,>,
+applicantid,>,VARCHAR,>,Num null
+applicanttype,>,VARCHAR,>,
+incomeconsidered,>,VARCHAR,>,
+incomemethod,>,VARCHAR,>,Full null
+firstname,>,VARCHAR,>,
+lastname,>,VARCHAR,>,
+middlename,>,VARCHAR,>,Full null
+prefix,>,VARCHAR,>,Full null
+suffix,>,VARCHAR,>,Full null
+,,,,
+,,,,
+"""insurancedata"".""applist_email"";",,,,
+_id,>,VARCHAR,>,Num null
+emailaddress,>,VARCHAR,>,
+emailtype,>,VARCHAR,>,
+uuid,>,VARCHAR,>,Full null
+verified,>,VARCHAR,>,
+,,,,
+,,,,
+,,,,
+"“insurancedata"".""applist_employment"";",,,,
+_id,>,VARCHAR,>,Num null
+constitution,>,VARCHAR,>,Full null
+dateofjoining,>,VARCHAR,>,Date null
+designation,>,VARCHAR,>,Full null
+domainstatus,>,VARCHAR,>,
+emailaddress,>,VARCHAR,>,Full null
+emailstatus,>,VARCHAR,>,
+emplcatemi,>,VARCHAR,>,Full null
+emplnameemi,>,VARCHAR,>,Full null
+employerstatus,>,VARCHAR,>,
+employertype,>,VARCHAR,>,
+employertypeother,>,VARCHAR,>,
+employmentcategory,>,VARCHAR,>,Full null
+employmentname,>,VARCHAR,>,
+employmenttype,>,VARCHAR,>,
+grosssalary,>,INTEGER,>,
+itramount,>,INTEGER,>,
+modepayment,>,VARCHAR,>,Full null
+monthlysalary,>,INTEGER,>,
+timewithemployer,>,INTEGER,>,
+totalyearsofexperience,>,INTEGER,>,
+confidence,>,VARCHAR,>,Full null
+estid,>,VARCHAR,>,Full null
+name,>,VARCHAR,>,Full null
+01/04/21,>,VARCHAR,>,Full null
+01/08/21,>,VARCHAR,>,Full null
+01/12/20,>,VARCHAR,>,Full null
+01/02/21,>,VARCHAR,>,Full null
+01/01/21,>,VARCHAR,>,Full null
+01/07/21,>,VARCHAR,>,Full null
+01/06/21,>,VARCHAR,>,Full null
+01/03/21,>,VARCHAR,>,Full null
+01/05/21,>,VARCHAR,>,Full null
+01/11/20,>,VARCHAR,>,Full null
+01/10/20,>,VARCHAR,>,Full null
+01/09/20,>,VARCHAR,>,Full null
+,,,,
+,,,,
+,,,,
+".""insurancedata"".""applist_inspolicylist_optdetailslist"";",,,,
+_id,>,INTEGER,>,
+insuranceid,>,INTEGER,>,
+dateofbirth,>,VARCHAR,>,Date null
+gender,>,VARCHAR,>,
+relationship,>,VARCHAR,>,
+tempdob,>,VARCHAR,>,Date null
+firstname,>,VARCHAR,>,
+lastname,>,VARCHAR,>,
+,,,,
+,,,,
+".""insurancedata"".""applist_inurancepolicylist"";",,,,
+_id,>,VARCHAR,>,Num null
+company,>,VARCHAR,>,
+contentcover,>,VARCHAR,>,
+exception,>,VARCHAR,>,
+generateddate,>,VARCHAR,>,Date null
+insterm,>,VARCHAR,>,Num null
+insuranceid,>,INTEGER,>,
+mastercode,>,VARCHAR,>,
+msg,>,VARCHAR,>,
+insurancepolicylist_name,>,VARCHAR,>,
+policynumber,>,VARCHAR,>,Num null
+policytenure,>,VARCHAR,>,Full null
+premium,>,VARCHAR,>,Num null
+premiumhit,>,VARCHAR,>,
+product,>,VARCHAR,>,
+proposedamount,>,INTEGER,>,
+scheme,>,VARCHAR,>,
+status,>,VARCHAR,>,
+sumassured,>,VARCHAR,>,Num null
+tenorrequested,>,VARCHAR,>,
+url,>,VARCHAR,>,
+dateofbirth,>,VARCHAR,>,Full null
+gender,>,VARCHAR,>,Full null
+relationship,>,VARCHAR,>,Full null
+tempdob,>,VARCHAR,>,Full null
+firstname,>,VARCHAR,>,Full null
+lastname,>,VARCHAR,>,Full null
+,,,,
+,,,,
+".""insurancedata"".""applist_kyc"";",,,,
+_id,>,INTEGER,>,
+dobmatch,>,VARCHAR,>,
+duplicate,>,VARCHAR,>,
+kycapplied,>,VARCHAR,>,
+kycmatch,>,VARCHAR,>,
+kycname,>,VARCHAR,>,
+kycnumber,>,VARCHAR,>,
+kycstatus,>,VARCHAR,>,
+,,,,
+,,,,
+"“insurancedata"".""applist_loandetails"";",,,,
+_id,>,VARCHAR,>,Num null
+balancetenure,>,INTEGER,>,
+emiamt,>,INTEGER,>,
+emibouncedcountinayear,>,INTEGER,>,
+loanamt,>,INTEGER,>,
+loanapr,>,INTEGER,>,
+mob,>,INTEGER,>,
+pos,>,VARCHAR,>,Full null
+repaymentbankname,>,VARCHAR,>,
+,,,,
+,,,,
+"""insurancedata"".""applist_phone"";",,,,
+_id,>,VARCHAR,>,Num null
+areacode,>,VARCHAR,>,Full null
+countrycode,>,VARCHAR,>,Num null
+extension,>,VARCHAR,>,Full null
+phonenumber,>,VARCHAR,>,Num null
+phonetype,>,VARCHAR,>,
+uuid,>,VARCHAR,>,Full null
+verified,>,VARCHAR,>,
+,,,,
+,,,,
+"""insurancedata"".""applist_posteligibility"";",,,,
+_id,>,INTEGER,>,
+pf,>,VARCHAR,>,int dec
+posteligibility_id,>,VARCHAR,>,Full null
+appliedloan,>,INTEGER,>,
+appliedtenor,>,INTEGER,>,
+aprvloan,>,INTEGER,>,
+balenceemi,>,INTEGER,>,
+bankingthroughput,>,INTEGER,>,
+borrowingturnoverratio,>,INTEGER,>,
+combineddbr,>,INTEGER,>,
+combinedltv,>,INTEGER,>,
+creditcardoutstanding,>,INTEGER,>,
+creditordays,>,INTEGER,>,
+currentratio,>,INTEGER,>,
+customerirr,>,INTEGER,>,
+debtordays,>,INTEGER,>,
+debttoequity,>,INTEGER,>,
+devamt,>,INTEGER,>,
+dscr,>,INTEGER,>,
+elgfixedobg,>,INTEGER,>,
+elgfixedoblg,>,INTEGER,>,
+elglnamt,>,INTEGER,>,
+elgtenor,>,INTEGER,>,
+eligibilityasfoir,>,INTEGER,>,
+eligibilityroi,>,VARCHAR,>,int dec
+eligibleoffer_emi,>,INTEGER,>,
+finalamtlacks,>,INTEGER,>,
+finalfoir,>,VARCHAR,>,int dec
+fixedoblgation,>,INTEGER,>,
+foir,>,VARCHAR,>,int dec
+grossincome,>,INTEGER,>,
+grouptotalexposure,>,INTEGER,>,
+hlflag,>,VARCHAR,>,
+eligibleoffer_income,>,INTEGER,>,
+insurenceamt,>,INTEGER,>,
+isexistingloan,>,VARCHAR,>,
+marginroi,>,INTEGER,>,
+monthlysalary,>,INTEGER,>,
+multiplier,>,INTEGER,>,
+noofadvemis,>,INTEGER,>,
+policyfoir,>,INTEGER,>,
+proposedsanctionamount,>,INTEGER,>,
+takeoveramount,>,INTEGER,>,
+tenor,>,INTEGER,>,
+totalexposure,>,INTEGER,>,
+totalmarketvalue,>,INTEGER,>,
+totalroi,>,INTEGER,>,
+triggersobredeviation,>,VARCHAR,>,
+valuation,>,INTEGER,>,
+eligibilityamount,>,INTEGER,>,
+eligibilityname,>,VARCHAR,>,
+eligibletenor,>,INTEGER,>,
+emi,>,INTEGER,>,
+fixedobligations,>,INTEGER,>,
+income,>,INTEGER,>,
+selectedoffer,>,VARCHAR,>,
+,,,,
+,,,,
+,,,,
+"""insurancedata"".""applist_posteligibility_incomedetailist"";",,,,
+_id,>,INTEGER,>,
+posteligibility_id,>,VARCHAR,>,Full null
+applicantid,>,INTEGER,>,
+applicanttype,>,VARCHAR,>,
+incomeconsidered,>,VARCHAR,>,
+firstname,>,VARCHAR,>,
+lastname,>,VARCHAR,>,
+middlename,>,VARCHAR,>,
+,,,,
+,,,,
+"“insurancedata"".""insurancedata"";",,,,
+_id,>,VARCHAR,>,Num null
+changedloanamount,>,VARCHAR,>,Num null
+changedtenoramount,>,VARCHAR,>,Num null
+currentcnt,>,INTEGER,>,
+initiationpoint,>,VARCHAR,>,
+institutionid,>,INTEGER,>,
+product,>,VARCHAR,>,
+addharverified,>,VARCHAR,>,
+age,>,INTEGER,>,
+agedifferencepresent,>,VARCHAR,>,
+ageduringmaturityofloan,>,INTEGER,>,
+applicantid,>,INTEGER,>,
+applicanttype,>,VARCHAR,>,
+bureauhitcnt,>,VARCHAR,>,Num null
+bureaumsg,>,VARCHAR,>,Full null
+castcategory,>,VARCHAR,>,Full null
+city,>,VARCHAR,>,Full null
+consenttocall,>,VARCHAR,>,
+contactperson,>,VARCHAR,>,
+creditcardnumber,>,VARCHAR,>,Full null
+creditvidyaflag,>,VARCHAR,>,
+dateofbirth,>,VARCHAR,>,Date null
+designation,>,VARCHAR,>,Full null
+earning,>,VARCHAR,>,
+education,>,VARCHAR,>,
+entitytype,>,VARCHAR,>,Full null
+form60cellflag,>,VARCHAR,>,
+gender,>,VARCHAR,>,
+gstno,>,VARCHAR,>,
+gststatus,>,VARCHAR,>,
+hasbankaccount,>,VARCHAR,>,Full null
+inoofchildren,>,INTEGER,>,
+maritalstatus,>,VARCHAR,>,
+minimumofferedvalue,>,VARCHAR,>,Full null
+minor,>,VARCHAR,>,
+mobileverified,>,VARCHAR,>,
+mothersmaidenname,>,VARCHAR,>,Full null
+noofdependents,>,INTEGER,>,
+noofearningmembers,>,INTEGER,>,
+nooffamilymembers,>,INTEGER,>,
+nonfinancial,>,VARCHAR,>,Full null
+oldcustomercode,>,VARCHAR,>,
+ownership,>,VARCHAR,>,Full null
+physicallyhandicappd,>,VARCHAR,>,Full null
+physicallyhandicapped,>,VARCHAR,>,
+relationwithapplicant,>,VARCHAR,>,
+relationwithpropertyowner,>,VARCHAR,>,
+religion,>,VARCHAR,>,Full null
+resaddrsameasapplt,>,VARCHAR,>,
+residenceaddsameasabove,>,VARCHAR,>,
+tanno,>,VARCHAR,>,Full null
+udyamregnumber,>,VARCHAR,>,Full null
+waived,>,VARCHAR,>,
+an_firstname,>,VARCHAR,>,
+an_lastname,>,VARCHAR,>,
+an_middlename,>,VARCHAR,>,
+an_prefix,>,VARCHAR,>,Full null
+an_suffix,>,VARCHAR,>,Full null
+fn_firstname,>,VARCHAR,>,
+fn_lastname,>,VARCHAR,>,
+fn_middlename,>,VARCHAR,>,
+fn_prefix,>,VARCHAR,>,Full null
+fn_suffix,>,VARCHAR,>,Full null
+incomedetails_grossmonthlyamt,>,VARCHAR,>,Num null
+incomedetails_netmonthlyamt,>,VARCHAR,>,Num null
+incomedetails_othersourceincomeamount,>,VARCHAR,>,Num null
+incomedetails_othersrcmnthlyincmamt,>,VARCHAR,>,Num null
+incomedetails_totfmlymnthlyincmamt,>,VARCHAR,>,Num null
+mn_firstname,>,VARCHAR,>,
+mn_lastname,>,VARCHAR,>,
+mn_middlename,>,VARCHAR,>,
+mn_prefix,>,VARCHAR,>,Full null
+mn_suffix,>,VARCHAR,>,Full null
+abbsixmonth,>,VARCHAR,>,Num null
+ageutilisation,>,VARCHAR,>,Num null
+business,>,VARCHAR,>,
+businessoutsidegeolimit,>,VARCHAR,>,
+collateralwithincitylimit,>,VARCHAR,>,
+creditlastsixmonths,>,VARCHAR,>,Num null
+dscr,>,VARCHAR,>,Num null
+existingemi,>,VARCHAR,>,Num null
+existingunsecuredloan,>,VARCHAR,>,Num null
+industry,>,VARCHAR,>,Full null
+loanscheme,>,VARCHAR,>,
+modeofpayment,>,VARCHAR,>,
+negativearea,>,VARCHAR,>,
+negativeindustry,>,VARCHAR,>,
+noinwardsixmonth,>,VARCHAR,>,Num null
+officeemail,>,VARCHAR,>,
+outstandingprincipal,>,VARCHAR,>,Num null
+profession,>,VARCHAR,>,
+proposedemi,>,VARCHAR,>,Num null
+psl,>,VARCHAR,>,
+remarks,>,VARCHAR,>,Full null
+residenceoutsidegeolimit,>,VARCHAR,>,
+salesturnover,>,VARCHAR,>,Num null
+specialization,>,VARCHAR,>,
+totalbankcredit,>,VARCHAR,>,Num null
+sn_firstname,>,VARCHAR,>,
+sn_lastname,>,VARCHAR,>,
+sn_middlename,>,VARCHAR,>,
+sn_prefix,>,VARCHAR,>,Full null
+sn_suffix,>,VARCHAR,>,Full null
+finfortconsent,>,VARCHAR,>,
+finfortinitiated,>,VARCHAR,>,
