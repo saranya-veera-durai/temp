@@ -1,0 +1,150 @@
+"""loancharges"".""lc_insurencecatlist"";",,,,
+_id,>,INTEGER,>,
+amount,>,INTEGER,>,
+companyname,>,VARCHAR,>,
+insurancecategory,>,VARCHAR,>,
+,,,,
+,,,,
+,,,,
+"""loancharges"".""lc_lcl_insurencecatlist"";",,,,
+_id,>,INTEGER,>,
+lcl_id,>,VARCHAR,>,Full null
+amount,>,VARCHAR,>,int dec
+companyname,>,VARCHAR,>,
+insurancecategory,>,VARCHAR,>,
+,,,,
+,,,,
+"""loancharges"".""lc_loanchargeslist"";",,,,
+_id,>,INTEGER,>,
+lcl_id,>,VARCHAR,>,Full null
+additionalcharges,>,VARCHAR,>,
+advemiwithgst,>,INTEGER,>,
+advanceemi,>,INTEGER,>,
+brokenperioddays,>,INTEGER,>,
+cersaifeewithgst,>,INTEGER,>,
+cersaifees,>,INTEGER,>,
+creditvidyacharge,>,INTEGER,>,
+disburseddate,>,VARCHAR,>,Date null
+duedate,>,INTEGER,>,
+efranking,>,VARCHAR,>,Full null
+emienddate,>,VARCHAR,>,Date null
+emistartdate,>,VARCHAR,>,Date null
+finalemiamt,>,INTEGER,>,
+gst,>,INTEGER,>,
+gstamt,>,INTEGER,>,
+imd2amount,>,VARCHAR,>,Num null
+imd2gstamt,>,VARCHAR,>,Num null
+imdcollectedamt,>,INTEGER,>,
+insuranceamt,>,VARCHAR,>,int dec
+insurancerequired,>,VARCHAR,>,
+iscashout,>,VARCHAR,>,
+loanchargesdetails,>,VARCHAR,>,Full null
+loanpercentage,>,INTEGER,>,
+netdisbamt,>,INTEGER,>,
+preemideductamt,>,INTEGER,>,
+prodeductamt,>,INTEGER,>,
+profees,>,DECIMAL,>,
+profeesamt,>,INTEGER,>,
+totalfees,>,INTEGER,>,
+typeofroi,>,VARCHAR,>,
+interestdetails_changeapproval,>,VARCHAR,>,
+interestdetails_disbinterestrate,>,VARCHAR,>,int dec
+interestdetails_finalfoir ,>,VARCHAR,>,int dec
+interestdetails_foir ,>,VARCHAR,>,int dec
+interestdetails_interestrate,>,VARCHAR,>,int dec
+interestdetails_pfpercentage,>,VARCHAR,>,int dec
+loandetails_approvedpf ,>,INTEGER,>,
+loandetails_approvedlmt,>,INTEGER,>,
+loandetails_btloanamt ,>,INTEGER,>,
+loandetails_changeapproval,>,VARCHAR,>,
+loandetails_documentcharges,>,INTEGER,>,
+loandetails_documentchargesgst ,>,INTEGER,>,
+loandetails_existingloanamt ,>,INTEGER,>,
+loandetails_finaldisbamt ,>,INTEGER,>,
+loandetails_finalloanapprovedamt ,>,INTEGER,>,
+loandetails_interestosamt ,>,INTEGER,>,
+loandetails_pdcamount ,>,INTEGER,>,
+loandetails_pdcgstamount ,>,INTEGER,>,
+loandetails_principalosamt ,>,INTEGER,>,
+loandetails_topupgrossamt ,>,INTEGER,>,
+loandetails_topupparallelamt,>,INTEGER,>,
+tenuredetails_btemiamt,>,INTEGER,>,
+tenuredetails_changeapproval,>,VARCHAR,>,
+tenuredetails_disbtenuremonths,>,INTEGER,>,
+tenuredetails_tenuremonths,>,INTEGER,>,
+tenuredetails_topupemiamt,>,INTEGER,>,
+,,,,
+,,,,
+"""loancharges"".""loancharges"";",,,,
+_id,>,INTEGER,>,
+additionalcharges,>,VARCHAR,>,
+advemiwithgst,>,VARCHAR,>,Num null
+advanceemi,>,INTEGER,>,
+bopsreceiveddt,>,VARCHAR,>,Full null
+brokenperioddays,>,VARCHAR,>,Num null
+cersaifeewithgst,>,VARCHAR,>,Num null
+cersaifees,>,INTEGER,>,
+creditvidyacharge,>,VARCHAR,>,Num null
+disburseddate,>,TIMESTAMP,>,
+duedate,>,VARCHAR,>,Num null
+efranking,>,VARCHAR,>,Num null
+emienddate,>,VARCHAR,>,Date null
+emistartdate,>,TIMESTAMP,>,
+filereceiveddt,>,VARCHAR,>,Full null
+finalemiamt,>,INTEGER,>,
+gst,>,INTEGER,>,
+gstamt,>,INTEGER,>,
+hopsfilerecievedt,>,VARCHAR,>,Full null
+imd2amount,>,VARCHAR,>,Num null
+imd2gstamt,>,VARCHAR,>,Num null
+imdcollectedamt,>,INTEGER,>,
+institutionid,>,INTEGER,>,
+insuranceamt,>,INTEGER,>,
+insuranceconame,>,VARCHAR,>,
+insurancerequired,>,VARCHAR,>,
+interestemistartdt,>,VARCHAR,>,Full null
+iscashout,>,VARCHAR,>,
+loanchargesdetails,>,VARCHAR,>,Full null
+loanpercentage,>,VARCHAR,>,Full null
+netdisbamt,>,INTEGER,>,
+preemideductamt,>,INTEGER,>,
+prodeductamt,>,INTEGER,>,
+profees,>,VARCHAR,>,int dec
+profeesamt,>,VARCHAR,>,int dec
+quarter,>,VARCHAR,>,Full null
+totalfees,>,INTEGER,>,
+typeofroi,>,VARCHAR,>,
+remark_comment,>,VARCHAR,>,Full null
+remark_remarkdate,>,TIMESTAMP,>,
+interestdetails_changeapproval,>,VARCHAR,>,
+interestdetails_disbinterestrate,>,VARCHAR,>,int dec
+interestdetails_finalfoir,>,VARCHAR,>,Num null
+interestdetails_foir,>,VARCHAR,>,Num null
+interestdetails_interestrate,>,VARCHAR,>,int dec
+interestdetails_pfpercentage,>,VARCHAR,>,Num null
+interestdetail_remark_remarkdate,>,VARCHAR,>,Full null
+loandetails_approvedpf,>,VARCHAR,>,int dec null
+loandetails_approvedlmt,>,VARCHAR,>,Num null
+loandetails_btloanamt,>,INTEGER,>,
+loandetails_changeapproval,>,VARCHAR,>,
+loandetails_documentcharges,>,VARCHAR,>,Num null
+loandetails_documentchargesgst,>,VARCHAR,>,Num null
+loandetails_existingloanamt,>,INTEGER,>,
+loandetails_finaldisbamt,>,INTEGER,>,
+loandetails_finalloanapprovedamt,>,INTEGER,>,
+loandetails_interestosamt,>,VARCHAR,>,Num null
+loandetails_pdcamount,>,VARCHAR,>,Num null
+loandetails_pdcgstamount,>,VARCHAR,>,Num null
+loandetails_principalosamt,>,VARCHAR,>,Num null
+loandetails_topupgrossamt,>,INTEGER,>,
+loandetails_topupparallelamt,>,INTEGER,>,
+loandetail__remark_by,>,VARCHAR,>,
+loandetail__remark_comment,>,VARCHAR,>,
+loandetail__remark_role,>,VARCHAR,>,
+loandetail_remark_remarkdate,>,VARCHAR,>,Date null
+tenuredetails_btemiamt,>,INTEGER,>,
+tenuredetails_changeapproval,>,VARCHAR,>,
+tenuredetails_disbtenuremonths,>,INTEGER,>,
+tenuredetails_tenuremonths,>,INTEGER,>,
+tenuredetails_topupemiamt,>,INTEGER,>,
+tenuredetails__remark_remarkdate,>,VARCHAR,>,Full null
