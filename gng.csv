@@ -1,0 +1,2499 @@
+gonogocustomerapplication.gng_acr_ssr_ar_appres_derivedfields,,,,
+"""gonogocustomerapplication"".""gng_acr_ssr_brear_ar_derivedfields"";",,,,
+"""gonogocustomerapplication"".""gng_acr_ssr_brear_ar_rules_values"";",,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbcjr_errors"";",,,,
+_id,>,VARCHAR,>,
+code,>,INTEGER,>,
+description,>,VARCHAR,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""compresplist_mbjr_mr_activetradelines_month"";",,,,
+p_id,>,VARCHAR,>,Full null
+_id,>,INTEGER,>,
+assetclassificationstatus,>,VARCHAR,>,
+key,>,VARCHAR,>, 1 to 10
+paymentstatus,>,INTEGER,>,
+suitfiledstatus,>,VARCHAR,>,XXX
+,,,,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbcjr_finishedlist"";",,,,
+_id,>,INTEGER,>,
+bureauname,>,VARCHAR,>,
+bureauoutput,>,VARCHAR,>,
+productcode,>,VARCHAR,>,
+status,>,VARCHAR,>,
+trackindid,>,INTEGER,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbcjr_fl_jo_rr_eir_addvec_address"";",,,,
+_id,>,INTEGER,>,
+addressline,>,VARCHAR,>,
+city,>,VARCHAR,>,
+pincode,>,INTEGER,>,
+state,>,VARCHAR,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbcjr_fl_jo_rr_enquiryinformationrec"";",,,,
+_id,>,INTEGER,>,
+addresscount,>,INTEGER,>,
+borrowername,>,VARCHAR,>,Full null
+cin,>,VARCHAR,>,Full null
+crn,>,VARCHAR,>,Full null
+dateofregistration,>,TIMESTAMP,>,Full null
+pan,>,VARCHAR,>,
+tin,>,VARCHAR,>,Full null
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbcjr_fl_jo_rr_ps_bps_bacontactdetails"";",,,,
+_id,>,INTEGER,>,
+address,>,VARCHAR,>,
+faxnumber,>,INTEGER,>,minus
+mobilenumber,>,INTEGER,>,Plus 91
+telephonenumber,>,INTEGER,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbcjr_fl_jo_rr_ps_bps_bdrobor"";",,,,
+_id,>,INTEGER,>,
+current,>,VARCHAR,>,
+last24months,>,VARCHAR,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbcjr_fl_jo_rr_ps_bps_bdv_biddetails"";",,,,
+_id,>,INTEGER,>,
+cin,>,VARCHAR,>,
+pan,>,VARCHAR,>,
+registrationnumber,>,VARCHAR,>,
+servicetaxnumber,>,VARCHAR,>,Full null
+tin,>,INTEGER,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbcjr_fl_jo_rr_ps_bps_bin24m"";",,,,
+_id,>,INTEGER,>,
+borrowerin24months,>,VARCHAR,>,Full null
+detail,>,VARCHAR,>,
+fxcount,>,INTEGER,>,
+fxoutstanding,>,INTEGER,>,
+nfcount,>,INTEGER,>,
+nfoutstanding,>,INTEGER,>,
+relationship,>,VARCHAR,>,
+tlcount,>,INTEGER,>,
+tloutstanding,>,INTEGER,>,
+wccount,>,INTEGER,>,
+wcoutstanding,>,INTEGER,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbcjr_fl_jo_rr_ps_bps_borrowerdispute"";",,,,
+_id,>,INTEGER,>,
+disputeremarks,>,VARCHAR,>,Full null
+disputeremarksdate,>,VARCHAR,>,Full null
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbcjr_fl_jo_rr_ps_bps_borrwerdetails"";",,,,
+_id,>,INTEGER,>,
+borrowerslegalconstitution,>,VARCHAR,>,
+businesscategory,>,VARCHAR,>,
+businessindustrytype,>,VARCHAR,>,
+dateofincorporation,>,TIMESTAMP,>,
+name,>,VARCHAR,>,
+numberofemployees,>,INTEGER,>,
+salesfigure,>,INTEGER,>,
+year,>,VARCHAR,>,Full null
+classofactivity,>,VARCHAR,>,
+classofactivityvec,>,VARCHAR,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbcjr_fl_jo_rr_ps_cfdborrowersec"";",,,,
+_id,>,INTEGER,>,
+message,>,VARCHAR,>,Full null
+messagevec,>,VARCHAR,>,Full null
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbcjr_fl_jo_rr_ps_cfdbsv_cfcdv_amt"";",,,,
+_id,>,INTEGER,>,
+contractsclassifiedasnpa,>,VARCHAR,>,Full null
+currency,>,VARCHAR,>,
+drawingpower,>,INTEGER,>,
+highcredit,>,INTEGER,>,
+installmentamt,>,INTEGER,>,
+lastrepaid,>,INTEGER,>,
+naorc,>,VARCHAR,>,Full null
+outstandingbalance,>,INTEGER,>,
+overdue,>,INTEGER,>,
+sanctionedamt,>,INTEGER,>,
+settled,>,INTEGER,>,
+suitfiledamt,>,INTEGER,>,
+writtenoff,>,INTEGER,>,
+,,,,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbcjr_fl_jo_rr_ps_cfdbsv_cfcdv_dates"";",,,,
+_id,>,INTEGER,>,
+loanexpirydt,>,TIMESTAMP,>,
+loanrenewaldt,>,TIMESTAMP,>,
+sanctioneddt,>,TIMESTAMP,>,
+suitfileddt,>,VARCHAR,>,Full null
+wilfuldefault,>,VARCHAR,>,Full null
+,,,,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbcjr_fl_jo_rr_ps_cfdbsv_cfcdv_otherdetail"";",,,,
+_id,>,INTEGER,>,
+assetbasedsecuritycoverage,>,VARCHAR,>,
+guaranteecoverage,>,VARCHAR,>,
+repaymentfrequency,>,VARCHAR,>,
+restructingreason,>,VARCHAR,>,Full null
+tenure,>,INTEGER,>,
+,,,,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbcjr_fl_jo_rr_ps_cfdbsv_cfgdv_gaddrcontact"";",,,,
+_id,>,INTEGER,>,
+address,>,VARCHAR,>,
+faxnumber,>,VARCHAR,>,Full null
+mobilenumber,>,INTEGER,>,Plus 91
+telephonenumber,>,INTEGER,>,minus
+din,>,VARCHAR,>,Full null
+drivinglicensenumber,>,VARCHAR,>,Full null
+pan,>,VARCHAR,>,Full null
+passportnumber,>,VARCHAR,>,Full null
+rationcard,>,VARCHAR,>,Full null
+uid,>,VARCHAR,>,Full null
+voterid,>,VARCHAR,>,Full null
+,,,,
+,,,,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbcjr_fl_jo_rr_ps_cfdbsv_cfgdv_gdbdv_giddetail"";",,,,
+_id,>,INTEGER,>,
+cin,>,VARCHAR,>,Full null
+din,>,VARCHAR,>,Full null
+drivinglicensenumber,>,VARCHAR,>,
+pan,>,VARCHAR,>,
+passportnumber,>,VARCHAR,>,
+rationcard,>,VARCHAR,>,Full null
+registrationnumber,>,VARCHAR,>,
+servicetaxnumber,>,VARCHAR,>,Full null
+tin,>,VARCHAR,>,
+uid,>,INTEGER,>,
+voterid,>,VARCHAR,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbcjr_fl_jo_rr_ps_cfdbsv_cfgdv_gdetails"";",,,,
+_id,>,INTEGER,>,
+businesscategory,>,VARCHAR,>,
+businessindustrytype,>,VARCHAR,>,
+dateofbirth,>,TIMESTAMP,>,
+dateofincorporation,>,TIMESTAMP,>,
+gender,>,VARCHAR,>,
+message,>,VARCHAR,>,
+name,>,VARCHAR,>,
+relatedtype,>,VARCHAR,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbcjr_fl_jo_rr_ps_cfdbsv_cfhacordpdupto24m"";",,,,
+_id,>,INTEGER,>,
+acordpd,>,VARCHAR,>,
+osamount,>,INTEGER,>,
+month,>,TIMESTAMP,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbcjr_fl_jo_rr_ps_cfdbsv_cfoverrduedetails"";",,,,
+_id,>,INTEGER,>,
+dpd1to30amt,>,INTEGER,>,
+dpd31to60amt,>,INTEGER,>,
+dpd61t090amt,>,INTEGER,>,
+dpd91to180amt,>,INTEGER,>,
+dpdabove180amt,>,INTEGER,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbcjr_fl_jo_rr_ps_cfdbsv_cfsecuritydetails"";",,,,
+_id,>,INTEGER,>,
+classification,>,VARCHAR,>,
+currency,>,VARCHAR,>,
+lastreporteddt,>,TIMESTAMP,>,
+relatedtype,>,VARCHAR,>,
+validationdt,>,TIMESTAMP,>,
+value,>,INTEGER,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbcjr_fl_jo_rr_ps_cfdbsv_chqddtinsuffunds"";",,,,
+_id,>,INTEGER,>,
+cd10to12monthcount,>,VARCHAR,>,Full null
+cd3monthcount,>,INTEGER,>,
+cd4to6monthcount,>,INTEGER,>,
+cd7to9monthcount,>,INTEGER,>,
+message,>,VARCHAR,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbcjr_fl_jo_rr_ps_cfs_cocf_noofcf"";",,,,
+_id,>,INTEGER,>,
+others,>,INTEGER,>,
+total,>,INTEGER,>,
+yourbank,>,INTEGER,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbcjr_fl_jo_rr_ps_cfs_cocf_noofcg"";",,,,
+_id,>,INTEGER,>,
+others,>,INTEGER,>,
+total,>,INTEGER,>,
+yourbank,>,INTEGER,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbcjr_fl_jo_rr_ps_cfs_sumofcfvec"";",,,,
+_id,>,INTEGER,>,
+summaryofcreditfacilitiesrec,>,VARCHAR,>,Full null
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbcjr_fl_jo_rr_repheader"";",,,,
+_id,>,INTEGER,>,
+applicationreferencenumber,>,INTEGER,>,
+dayspasswordtoexpire,>,VARCHAR,>,Full null
+inquirypurpose,>,VARCHAR,>,
+memberdetails,>,VARCHAR,>,
+memberreferencenumber,>,Full null,>,
+reportorderdate,>,TIMESTAMP,>,
+reportordernumber,>,VARCHAR,>,
+reportorderedby,>,VARCHAR,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbcjr_fl_jo_rr_repissues"";",,,,
+_id,>,INTEGER,>,
+code,>,INTEGER,>,
+description,>,VARCHAR,>,
+message,>,VARCHAR,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbcjr_fl_pdfreport"";",,,,
+_id,>,INTEGER,>,
+base64,>,VARCHAR,>,
+subtype,>,INTEGER,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbcjr_mr_revcsummary"";",,,,
+_id,>,INTEGER,>,
+balance,>,INTEGER,>,
+days30overdue,>,INTEGER,>,
+days60overdue,>,INTEGER,>,
+days90overdue,>,INTEGER,>,
+openaccount,>,INTEGER,>,
+overdueamount,>,INTEGER,>,
+payments,>,INTEGER,>,
+percentageused,>,INTEGER,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbcjr_mr_secsummary"";",,,,
+_id,>,INTEGER,>,
+balance,>,INTEGER,>,
+days30overdue,>,INTEGER,>,
+days60overdue,>,INTEGER,>,
+days90overdue,>,INTEGER,>,
+openaccount,>,INTEGER,>,
+overdueamount,>,INTEGER,>,
+payments,>,INTEGER,>,
+percentageused,>,INTEGER,>,
+,,,,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbcjr_mr_unsecsummary"";",,,,
+_id,>,INTEGER,>,
+balance,>,INTEGER,>,
+days30overdue,>,INTEGER,>,
+days60overdue,>,INTEGER,>,
+days90overdue,>,INTEGER,>,
+openaccount,>,INTEGER,>,
+overdueamount,>,INTEGER,>,
+payments,>,INTEGER,>,
+percentageused,>,INTEGER,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbcjr_outputheader"";",,,,
+_id,>,INTEGER,>,
+applicationid,>,INTEGER,>,
+custid,>,INTEGER,>,
+responsetype,>,VARCHAR,>,
+timestamp,>,TIMESTAMP,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbjr_finishedlist"";",,,,
+_id,>,INTEGER,>,
+bureau,>,VARCHAR,>,
+bureaustring,>,VARCHAR,>,
+product,>,VARCHAR,>,
+status,>,VARCHAR,>,
+trackingid,>,INTEGER,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbjr_fl_bro_rrpclosedtrades"";",,,,
+_id,>,INTEGER,>,
+account review,>,VARCHAR,>,Full null
+adviser liability,>,VARCHAR,>,Full null
+auto loan (personal),>,VARCHAR,>,Full null
+bank olm retrieval service,>,VARCHAR,>,Full null
+business loan - general,>,VARCHAR,>,Full null
+business loan - priority sector - agriculture,>,VARCHAR,>,Full null
+business loan - priority sector - others,>,VARCHAR,>,Full null
+business loan - priority sector - small business,>,VARCHAR,>,Full null
+business loan against bank deposits,>,VARCHAR,>,Full null
+business non-funded credit facility - general,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - agriculture,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - small business,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector-others,>,VARCHAR,>,Full null
+commercial vehicle loan,>,VARCHAR,>,Full null
+consumer disclosure report,>,VARCHAR,>,Full null
+consumer loan,>,VARCHAR,>,Full null
+credit card,>,VARCHAR,>,Full null
+education loan,>,VARCHAR,>,Full null
+fleet card,>,VARCHAR,>,Full null
+for individual,>,VARCHAR,>,Full null
+gold loan,>,VARCHAR,>,Full null
+housing loan,>,VARCHAR,>,Full null
+indicative report,>,VARCHAR,>,Full null
+leasing,>,VARCHAR,>,Full null
+loan against bank deposits,>,VARCHAR,>,Full null
+loan against shares/securities,>,VARCHAR,>,Full null
+loan to professional,>,VARCHAR,>,Full null
+locate plus,>,VARCHAR,>,Full null
+microfinance - business loan,>,VARCHAR,>,Full null
+microfinance - housing loan,>,VARCHAR,>,Full null
+microfinance - other,>,VARCHAR,>,Full null
+microfinance - personal loan,>,VARCHAR,>,Full null
+microfinance detailed report,>,VARCHAR,>,Full null
+non-funded credit facility,>,VARCHAR,>,Full null
+other,>,VARCHAR,>,Full null
+overdraft,>,VARCHAR,>,Full null
+personal loan,>,VARCHAR,>,Full null
+property loan,>,VARCHAR,>,Full null
+retro enquiry,>,VARCHAR,>,Full null
+secured,>,VARCHAR,>,Full null
+summary report,>,VARCHAR,>,Full null
+telco - broadband,>,VARCHAR,>,Full null
+telco - landline,>,VARCHAR,>,Full null
+telco - wireless,>,VARCHAR,>,Full null
+two-wheeler loan,>,VARCHAR,>,Full null
+unsecured,>,VARCHAR,>,Full null
+vb olm retrieval service,>,VARCHAR,>,Full null
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbjr_fl_bro_rrpdpdbt121150"";",,,,
+_id,>,INTEGER,>,
+account review,>,VARCHAR,>,Full null
+adviser liability,>,VARCHAR,>,Full null
+auto loan (personal),>,VARCHAR,>,Full null
+bank olm retrieval service,>,VARCHAR,>,Full null
+business loan - general,>,VARCHAR,>,Full null
+business loan - priority sector - agriculture,>,VARCHAR,>,Full null
+business loan - priority sector - others,>,VARCHAR,>,Full null
+business loan - priority sector - small business,>,VARCHAR,>,Full null
+business loan against bank deposits,>,VARCHAR,>,Full null
+business non-funded credit facility - general,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - agriculture,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - small business,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector-others,>,VARCHAR,>,Full null
+commercial vehicle loan,>,VARCHAR,>,Full null
+consumer disclosure report,>,VARCHAR,>,Full null
+consumer loan,>,VARCHAR,>,Full null
+credit card,>,VARCHAR,>,Full null
+education loan,>,VARCHAR,>,Full null
+fleet card,>,VARCHAR,>,Full null
+for individual,>,VARCHAR,>,Full null
+gold loan,>,VARCHAR,>,Full null
+housing loan,>,VARCHAR,>,Full null
+indicative report,>,VARCHAR,>,Full null
+leasing,>,VARCHAR,>,Full null
+loan against bank deposits,>,VARCHAR,>,Full null
+loan against shares/securities,>,VARCHAR,>,Full null
+loan to professional,>,VARCHAR,>,Full null
+locate plus,>,VARCHAR,>,Full null
+microfinance - business loan,>,VARCHAR,>,Full null
+microfinance - housing loan,>,VARCHAR,>,Full null
+microfinance - other,>,VARCHAR,>,Full null
+microfinance - personal loan,>,VARCHAR,>,Full null
+microfinance detailed report,>,VARCHAR,>,Full null
+non-funded credit facility,>,VARCHAR,>,Full null
+other,>,VARCHAR,>,Full null
+overdraft,>,VARCHAR,>,Full null
+personal loan,>,VARCHAR,>,Full null
+property loan,>,VARCHAR,>,Full null
+retro enquiry,>,VARCHAR,>,Full null
+secured,>,VARCHAR,>,Full null
+summary report,>,VARCHAR,>,Full null
+telco - broadband,>,VARCHAR,>,Full null
+telco - landline,>,VARCHAR,>,Full null
+telco - wireless,>,VARCHAR,>,Full null
+two-wheeler loan,>,VARCHAR,>,Full null
+unsecured,>,VARCHAR,>,Full null
+vb olm retrieval service,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - small  business,>,VARCHAR,>,Full null
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbjr_fl_bro_rrpdpdbt130"";",,,,
+_id,>,INTEGER,>,
+account review,>,VARCHAR,>,Full null
+adviser liability,>,VARCHAR,>,Full null
+auto loan (personal),>,VARCHAR,>,Full null
+bank olm retrieval service,>,VARCHAR,>,Full null
+business loan - general,>,VARCHAR,>,Full null
+business loan - priority sector - agriculture,>,VARCHAR,>,Full null
+business loan - priority sector - others,>,VARCHAR,>,Full null
+business loan - priority sector - small business,>,VARCHAR,>,Full null
+business loan against bank deposits,>,VARCHAR,>,Full null
+business non-funded credit facility - general,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - agriculture,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - small business,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector-others,>,VARCHAR,>,Full null
+commercial vehicle loan,>,VARCHAR,>,Full null
+consumer disclosure report,>,VARCHAR,>,Full null
+consumer loan,>,VARCHAR,>,Full null
+credit card,>,VARCHAR,>,Full null
+education loan,>,VARCHAR,>,Full null
+fleet card,>,VARCHAR,>,Full null
+for individual,>,VARCHAR,>,Full null
+gold loan,>,VARCHAR,>,Full null
+housing loan,>,VARCHAR,>,Full null
+indicative report,>,VARCHAR,>,Full null
+leasing,>,VARCHAR,>,Full null
+loan against bank deposits,>,VARCHAR,>,Full null
+loan against shares/securities,>,VARCHAR,>,Full null
+loan to professional,>,VARCHAR,>,Full null
+locate plus,>,VARCHAR,>,Full null
+microfinance - business loan,>,VARCHAR,>,Full null
+microfinance - housing loan,>,VARCHAR,>,Full null
+microfinance - other,>,VARCHAR,>,Full null
+microfinance - personal loan,>,VARCHAR,>,Full null
+microfinance detailed report,>,VARCHAR,>,Full null
+non-funded credit facility,>,VARCHAR,>,Full null
+other,>,VARCHAR,>,Full null
+overdraft,>,VARCHAR,>,Full null
+personal loan,>,VARCHAR,>,Full null
+property loan,>,VARCHAR,>,Full null
+retro enquiry,>,VARCHAR,>,Full null
+secured,>,VARCHAR,>,Full null
+summary report,>,VARCHAR,>,Full null
+telco - broadband,>,VARCHAR,>,Full null
+telco - landline,>,VARCHAR,>,Full null
+telco - wireless,>,VARCHAR,>,Full null
+two-wheeler loan,>,VARCHAR,>,Full null
+unsecured,>,VARCHAR,>,Full null
+vb olm retrieval service,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - small  business,>,VARCHAR,>,Full null
+,,,,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbjr_fl_bro_rrpdpdbt145"";",,,,
+_id,>,INTEGER,>,
+account review,>,VARCHAR,>,Full null
+adviser liability,>,VARCHAR,>,Full null
+auto loan (personal),>,VARCHAR,>,Full null
+bank olm retrieval service,>,VARCHAR,>,Full null
+business loan - general,>,VARCHAR,>,Full null
+business loan - priority sector - agriculture,>,VARCHAR,>,Full null
+business loan - priority sector - others,>,VARCHAR,>,Full null
+business loan - priority sector - small business,>,VARCHAR,>,Full null
+business loan against bank deposits,>,VARCHAR,>,Full null
+business non-funded credit facility - general,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - agriculture,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - small business,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector-others,>,VARCHAR,>,Full null
+commercial vehicle loan,>,VARCHAR,>,Full null
+consumer disclosure report,>,VARCHAR,>,Full null
+consumer loan,>,VARCHAR,>,Full null
+credit card,>,VARCHAR,>,Full null
+education loan,>,VARCHAR,>,Full null
+fleet card,>,VARCHAR,>,Full null
+for individual,>,VARCHAR,>,Full null
+gold loan,>,VARCHAR,>,Full null
+housing loan,>,VARCHAR,>,Full null
+indicative report,>,VARCHAR,>,Full null
+leasing,>,VARCHAR,>,Full null
+loan against bank deposits,>,VARCHAR,>,Full null
+loan against shares/securities,>,VARCHAR,>,Full null
+loan to professional,>,VARCHAR,>,Full null
+locate plus,>,VARCHAR,>,Full null
+microfinance - business loan,>,VARCHAR,>,Full null
+microfinance - housing loan,>,VARCHAR,>,Full null
+microfinance - other,>,VARCHAR,>,Full null
+microfinance - personal loan,>,VARCHAR,>,Full null
+microfinance detailed report,>,VARCHAR,>,Full null
+non-funded credit facility,>,VARCHAR,>,Full null
+other,>,VARCHAR,>,Full null
+overdraft,>,VARCHAR,>,Full null
+personal loan,>,VARCHAR,>,Full null
+property loan,>,VARCHAR,>,Full null
+retro enquiry,>,VARCHAR,>,Full null
+secured,>,VARCHAR,>,Full null
+summary report,>,VARCHAR,>,Full null
+telco - broadband,>,VARCHAR,>,Full null
+telco - landline,>,VARCHAR,>,Full null
+telco - wireless,>,VARCHAR,>,Full null
+two-wheeler loan,>,VARCHAR,>,Full null
+unsecured,>,VARCHAR,>,Full null
+vb olm retrieval service,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - small  business,>,VARCHAR,>,Full null
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbjr_fl_bro_rrpdpdbt151180"";",,,,
+_id,>,INTEGER,>,
+account review,>,VARCHAR,>,Full null
+adviser liability,>,VARCHAR,>,Full null
+auto loan (personal),>,VARCHAR,>,Full null
+bank olm retrieval service,>,VARCHAR,>,Full null
+business loan - general,>,VARCHAR,>,Full null
+business loan - priority sector - agriculture,>,VARCHAR,>,Full null
+business loan - priority sector - others,>,VARCHAR,>,Full null
+business loan - priority sector - small business,>,VARCHAR,>,Full null
+business loan against bank deposits,>,VARCHAR,>,Full null
+business non-funded credit facility - general,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - agriculture,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - small business,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector-others,>,VARCHAR,>,Full null
+commercial vehicle loan,>,VARCHAR,>,Full null
+consumer disclosure report,>,VARCHAR,>,Full null
+consumer loan,>,VARCHAR,>,Full null
+credit card,>,VARCHAR,>,Full null
+education loan,>,VARCHAR,>,Full null
+fleet card,>,VARCHAR,>,Full null
+for individual,>,VARCHAR,>,Full null
+gold loan,>,VARCHAR,>,Full null
+housing loan,>,VARCHAR,>,Full null
+indicative report,>,VARCHAR,>,Full null
+leasing,>,VARCHAR,>,Full null
+loan against bank deposits,>,VARCHAR,>,Full null
+loan against shares/securities,>,VARCHAR,>,Full null
+loan to professional,>,VARCHAR,>,Full null
+locate plus,>,VARCHAR,>,Full null
+microfinance - business loan,>,VARCHAR,>,Full null
+microfinance - housing loan,>,VARCHAR,>,Full null
+microfinance - other,>,VARCHAR,>,Full null
+microfinance - personal loan,>,VARCHAR,>,Full null
+microfinance detailed report,>,VARCHAR,>,Full null
+non-funded credit facility,>,VARCHAR,>,Full null
+other,>,VARCHAR,>,Full null
+overdraft,>,VARCHAR,>,Full null
+personal loan,>,VARCHAR,>,Full null
+property loan,>,VARCHAR,>,Full null
+retro enquiry,>,VARCHAR,>,Full null
+secured,>,VARCHAR,>,Full null
+summary report,>,VARCHAR,>,Full null
+telco - broadband,>,VARCHAR,>,Full null
+telco - landline,>,VARCHAR,>,Full null
+telco - wireless,>,VARCHAR,>,Full null
+two-wheeler loan,>,VARCHAR,>,Full null
+unsecured,>,VARCHAR,>,Full null
+vb olm retrieval service,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - small  business,>,VARCHAR,>,Full null
+,,,,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbjr_fl_bro_rrpdpdbt181andabove"";",,,,
+_id,>,INTEGER,>,
+account review,>,VARCHAR,>,Full null
+adviser liability,>,VARCHAR,>,Full null
+auto loan (personal),>,VARCHAR,>,Full null
+bank olm retrieval service,>,VARCHAR,>,Full null
+business loan - general,>,VARCHAR,>,Full null
+business loan - priority sector - agriculture,>,VARCHAR,>,Full null
+business loan - priority sector - others,>,VARCHAR,>,Full null
+business loan - priority sector - small business,>,VARCHAR,>,Full null
+business loan against bank deposits,>,VARCHAR,>,Full null
+business non-funded credit facility - general,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - agriculture,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - small business,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector-others,>,VARCHAR,>,Full null
+commercial vehicle loan,>,VARCHAR,>,Full null
+consumer disclosure report,>,VARCHAR,>,Full null
+consumer loan,>,VARCHAR,>,Full null
+credit card,>,VARCHAR,>,Full null
+education loan,>,VARCHAR,>,Full null
+fleet card,>,VARCHAR,>,Full null
+for individual,>,VARCHAR,>,Full null
+gold loan,>,VARCHAR,>,Full null
+housing loan,>,VARCHAR,>,Full null
+indicative report,>,VARCHAR,>,Full null
+leasing,>,VARCHAR,>,Full null
+loan against bank deposits,>,VARCHAR,>,Full null
+loan against shares/securities,>,VARCHAR,>,Full null
+loan to professional,>,VARCHAR,>,Full null
+locate plus,>,VARCHAR,>,Full null
+microfinance - business loan,>,VARCHAR,>,Full null
+microfinance - housing loan,>,VARCHAR,>,Full null
+microfinance - other,>,VARCHAR,>,Full null
+microfinance - personal loan,>,VARCHAR,>,Full null
+microfinance detailed report,>,VARCHAR,>,Full null
+non-funded credit facility,>,VARCHAR,>,Full null
+other,>,VARCHAR,>,Full null
+overdraft,>,VARCHAR,>,Full null
+personal loan,>,VARCHAR,>,Full null
+property loan,>,VARCHAR,>,Full null
+retro enquiry,>,VARCHAR,>,Full null
+secured,>,VARCHAR,>,Full null
+summary report,>,VARCHAR,>,Full null
+telco - broadband,>,VARCHAR,>,Full null
+telco - landline,>,VARCHAR,>,Full null
+telco - wireless,>,VARCHAR,>,Full null
+two-wheeler loan,>,VARCHAR,>,Full null
+unsecured,>,VARCHAR,>,Full null
+vb olm retrieval service,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - small  business,>,VARCHAR,>,Full null
+,,,,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbjr_fl_bro_rrpdpdbt30p1m"";",,,,
+_id,>,INTEGER,>,
+account review,>,VARCHAR,>,Full null
+adviser liability,>,VARCHAR,>,Full null
+auto loan (personal),>,VARCHAR,>,Full null
+bank olm retrieval service,>,VARCHAR,>,Full null
+business loan - general,>,VARCHAR,>,Full null
+business loan - priority sector - agriculture,>,VARCHAR,>,Full null
+business loan - priority sector - others,>,VARCHAR,>,Full null
+business loan - priority sector - small business,>,VARCHAR,>,Full null
+business loan against bank deposits,>,VARCHAR,>,Full null
+business non-funded credit facility - general,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - agriculture,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - small business,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector-others,>,VARCHAR,>,Full null
+commercial vehicle loan,>,VARCHAR,>,Full null
+consumer disclosure report,>,VARCHAR,>,Full null
+consumer loan,>,VARCHAR,>,Full null
+credit card,>,VARCHAR,>,Full null
+education loan,>,VARCHAR,>,Full null
+fleet card,>,VARCHAR,>,Full null
+for individual,>,VARCHAR,>,Full null
+gold loan,>,VARCHAR,>,Full null
+housing loan,>,VARCHAR,>,Full null
+indicative report,>,VARCHAR,>,Full null
+leasing,>,VARCHAR,>,Full null
+loan against bank deposits,>,VARCHAR,>,Full null
+loan against shares/securities,>,VARCHAR,>,Full null
+loan to professional,>,VARCHAR,>,Full null
+locate plus,>,VARCHAR,>,Full null
+microfinance - business loan,>,VARCHAR,>,Full null
+microfinance - housing loan,>,VARCHAR,>,Full null
+microfinance - other,>,VARCHAR,>,Full null
+microfinance - personal loan,>,VARCHAR,>,Full null
+microfinance detailed report,>,VARCHAR,>,Full null
+non-funded credit facility,>,VARCHAR,>,Full null
+other,>,VARCHAR,>,Full null
+overdraft,>,VARCHAR,>,Full null
+personal loan,>,VARCHAR,>,Full null
+property loan,>,VARCHAR,>,Full null
+retro enquiry,>,VARCHAR,>,Full null
+secured,>,VARCHAR,>,Full null
+summary report,>,VARCHAR,>,Full null
+telco - broadband,>,VARCHAR,>,Full null
+telco - landline,>,VARCHAR,>,Full null
+telco - wireless,>,VARCHAR,>,Full null
+two-wheeler loan,>,VARCHAR,>,Full null
+unsecured,>,VARCHAR,>,Full null
+vb olm retrieval service,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - small  business,>,VARCHAR,>,Full null
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbjr_fl_bro_rrpdpdbt30p3m"";",,,,
+_id,>,INTEGER,>,
+account review,>,VARCHAR,>,Full null
+adviser liability,>,VARCHAR,>,Full null
+auto loan (personal),>,VARCHAR,>,Full null
+bank olm retrieval service,>,VARCHAR,>,Full null
+business loan - general,>,VARCHAR,>,Full null
+business loan - priority sector - agriculture,>,VARCHAR,>,Full null
+business loan - priority sector - others,>,VARCHAR,>,Full null
+business loan - priority sector - small business,>,VARCHAR,>,Full null
+business loan against bank deposits,>,VARCHAR,>,Full null
+business non-funded credit facility - general,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - agriculture,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - small business,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector-others,>,VARCHAR,>,Full null
+commercial vehicle loan,>,VARCHAR,>,Full null
+consumer disclosure report,>,VARCHAR,>,Full null
+consumer loan,>,VARCHAR,>,Full null
+credit card,>,VARCHAR,>,Full null
+education loan,>,VARCHAR,>,Full null
+fleet card,>,VARCHAR,>,Full null
+for individual,>,VARCHAR,>,Full null
+gold loan,>,VARCHAR,>,Full null
+housing loan,>,VARCHAR,>,Full null
+indicative report,>,VARCHAR,>,Full null
+leasing,>,VARCHAR,>,Full null
+loan against bank deposits,>,VARCHAR,>,Full null
+loan against shares/securities,>,VARCHAR,>,Full null
+loan to professional,>,VARCHAR,>,Full null
+locate plus,>,VARCHAR,>,Full null
+microfinance - business loan,>,VARCHAR,>,Full null
+microfinance - housing loan,>,VARCHAR,>,Full null
+microfinance - other,>,VARCHAR,>,Full null
+microfinance - personal loan,>,VARCHAR,>,Full null
+microfinance detailed report,>,VARCHAR,>,Full null
+non-funded credit facility,>,VARCHAR,>,Full null
+other,>,VARCHAR,>,Full null
+overdraft,>,VARCHAR,>,Full null
+personal loan,>,VARCHAR,>,Full null
+property loan,>,VARCHAR,>,Full null
+retro enquiry,>,VARCHAR,>,Full null
+secured,>,VARCHAR,>,Full null
+summary report,>,VARCHAR,>,Full null
+telco - broadband,>,VARCHAR,>,Full null
+telco - landline,>,VARCHAR,>,Full null
+telco - wireless,>,VARCHAR,>,Full null
+two-wheeler loan,>,VARCHAR,>,Full null
+unsecured,>,VARCHAR,>,Full null
+vb olm retrieval service,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - small  business,>,VARCHAR,>,Full null
+,,,,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbjr_fl_bro_rrpdpdbt30p6m"";",,,,
+_id,>,INTEGER,>,
+account review,>,VARCHAR,>,Full null
+adviser liability,>,VARCHAR,>,Full null
+auto loan (personal),>,VARCHAR,>,Full null
+bank olm retrieval service,>,VARCHAR,>,Full null
+business loan - general,>,VARCHAR,>,Full null
+business loan - priority sector - agriculture,>,VARCHAR,>,Full null
+business loan - priority sector - others,>,VARCHAR,>,Full null
+business loan - priority sector - small business,>,VARCHAR,>,Full null
+business loan against bank deposits,>,VARCHAR,>,Full null
+business non-funded credit facility - general,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - agriculture,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - small business,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector-others,>,VARCHAR,>,Full null
+commercial vehicle loan,>,VARCHAR,>,Full null
+consumer disclosure report,>,VARCHAR,>,Full null
+consumer loan,>,VARCHAR,>,Full null
+credit card,>,VARCHAR,>,Full null
+education loan,>,VARCHAR,>,Full null
+fleet card,>,VARCHAR,>,Full null
+for individual,>,VARCHAR,>,Full null
+gold loan,>,VARCHAR,>,Full null
+housing loan,>,VARCHAR,>,Full null
+indicative report,>,VARCHAR,>,Full null
+leasing,>,VARCHAR,>,Full null
+loan against bank deposits,>,VARCHAR,>,Full null
+loan against shares/securities,>,VARCHAR,>,Full null
+loan to professional,>,VARCHAR,>,Full null
+locate plus,>,VARCHAR,>,Full null
+microfinance - business loan,>,VARCHAR,>,Full null
+microfinance - housing loan,>,VARCHAR,>,Full null
+microfinance - other,>,VARCHAR,>,Full null
+microfinance - personal loan,>,VARCHAR,>,Full null
+microfinance detailed report,>,VARCHAR,>,Full null
+non-funded credit facility,>,VARCHAR,>,Full null
+other,>,VARCHAR,>,Full null
+overdraft,>,VARCHAR,>,Full null
+personal loan,>,VARCHAR,>,Full null
+property loan,>,VARCHAR,>,Full null
+retro enquiry,>,VARCHAR,>,Full null
+secured,>,VARCHAR,>,Full null
+summary report,>,VARCHAR,>,Full null
+telco - broadband,>,VARCHAR,>,Full null
+telco - landline,>,VARCHAR,>,Full null
+telco - wireless,>,VARCHAR,>,Full null
+two-wheeler loan,>,VARCHAR,>,Full null
+unsecured,>,VARCHAR,>,Full null
+vb olm retrieval service,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - small  business,>,VARCHAR,>,Full null
+,,,,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbjr_fl_bro_rrpdpdbt3160"";",,,,
+_id,>,INTEGER,>,
+account review,>,VARCHAR,>,Full null
+adviser liability,>,VARCHAR,>,Full null
+auto loan (personal),>,VARCHAR,>,Full null
+bank olm retrieval service,>,VARCHAR,>,Full null
+business loan - general,>,VARCHAR,>,Full null
+business loan - priority sector - agriculture,>,VARCHAR,>,Full null
+business loan - priority sector - others,>,VARCHAR,>,Full null
+business loan - priority sector - small business,>,VARCHAR,>,Full null
+business loan against bank deposits,>,VARCHAR,>,Full null
+business non-funded credit facility - general,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - agriculture,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - small business,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector-others,>,VARCHAR,>,Full null
+commercial vehicle loan,>,VARCHAR,>,Full null
+consumer disclosure report,>,VARCHAR,>,Full null
+consumer loan,>,VARCHAR,>,Full null
+credit card,>,VARCHAR,>,Full null
+education loan,>,VARCHAR,>,Full null
+fleet card,>,VARCHAR,>,Full null
+for individual,>,VARCHAR,>,Full null
+gold loan,>,VARCHAR,>,Full null
+housing loan,>,VARCHAR,>,Full null
+indicative report,>,VARCHAR,>,Full null
+leasing,>,VARCHAR,>,Full null
+loan against bank deposits,>,VARCHAR,>,Full null
+loan against shares/securities,>,VARCHAR,>,Full null
+loan to professional,>,VARCHAR,>,Full null
+locate plus,>,VARCHAR,>,Full null
+microfinance - business loan,>,VARCHAR,>,Full null
+microfinance - housing loan,>,VARCHAR,>,Full null
+microfinance - other,>,VARCHAR,>,Full null
+microfinance - personal loan,>,VARCHAR,>,Full null
+microfinance detailed report,>,VARCHAR,>,Full null
+non-funded credit facility,>,VARCHAR,>,Full null
+other,>,VARCHAR,>,Full null
+overdraft,>,VARCHAR,>,Full null
+personal loan,>,VARCHAR,>,Full null
+property loan,>,VARCHAR,>,Full null
+retro enquiry,>,VARCHAR,>,Full null
+secured,>,VARCHAR,>,Full null
+summary report,>,VARCHAR,>,Full null
+telco - broadband,>,VARCHAR,>,Full null
+telco - landline,>,VARCHAR,>,Full null
+telco - wireless,>,VARCHAR,>,Full null
+two-wheeler loan,>,VARCHAR,>,Full null
+unsecured,>,VARCHAR,>,Full null
+vb olm retrieval service,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - small  business,>,VARCHAR,>,Full null
+,,,,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbjr_fl_bro_rrpdpdbt6190"";",,,,
+_id,>,INTEGER,>,
+account review,>,VARCHAR,>,Full null
+adviser liability,>,VARCHAR,>,Full null
+auto loan (personal),>,VARCHAR,>,Full null
+bank olm retrieval service,>,VARCHAR,>,Full null
+business loan - general,>,VARCHAR,>,Full null
+business loan - priority sector - agriculture,>,VARCHAR,>,Full null
+business loan - priority sector - others,>,VARCHAR,>,Full null
+business loan - priority sector - small business,>,VARCHAR,>,Full null
+business loan against bank deposits,>,VARCHAR,>,Full null
+business non-funded credit facility - general,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - agriculture,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - small business,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector-others,>,VARCHAR,>,Full null
+commercial vehicle loan,>,VARCHAR,>,Full null
+consumer disclosure report,>,VARCHAR,>,Full null
+consumer loan,>,VARCHAR,>,Full null
+credit card,>,VARCHAR,>,Full null
+education loan,>,VARCHAR,>,Full null
+fleet card,>,VARCHAR,>,Full null
+for individual,>,VARCHAR,>,Full null
+gold loan,>,VARCHAR,>,Full null
+housing loan,>,VARCHAR,>,Full null
+indicative report,>,VARCHAR,>,Full null
+leasing,>,VARCHAR,>,Full null
+loan against bank deposits,>,VARCHAR,>,Full null
+loan against shares/securities,>,VARCHAR,>,Full null
+loan to professional,>,VARCHAR,>,Full null
+locate plus,>,VARCHAR,>,Full null
+microfinance - business loan,>,VARCHAR,>,Full null
+microfinance - housing loan,>,VARCHAR,>,Full null
+microfinance - other,>,VARCHAR,>,Full null
+microfinance - personal loan,>,VARCHAR,>,Full null
+microfinance detailed report,>,VARCHAR,>,Full null
+non-funded credit facility,>,VARCHAR,>,Full null
+other,>,VARCHAR,>,Full null
+overdraft,>,VARCHAR,>,Full null
+personal loan,>,VARCHAR,>,Full null
+property loan,>,VARCHAR,>,Full null
+retro enquiry,>,VARCHAR,>,Full null
+secured,>,VARCHAR,>,Full null
+summary report,>,VARCHAR,>,Full null
+telco - broadband,>,VARCHAR,>,Full null
+telco - landline,>,VARCHAR,>,Full null
+telco - wireless,>,VARCHAR,>,Full null
+two-wheeler loan,>,VARCHAR,>,Full null
+unsecured,>,VARCHAR,>,Full null
+vb olm retrieval service,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - small  business,>,VARCHAR,>,Full null
+,,,,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbjr_fl_bro_rrpdpdbt90p1m"";",,,,
+_id,>,INTEGER,>,
+account review,>,VARCHAR,>,Full null
+adviser liability,>,VARCHAR,>,Full null
+auto loan (personal),>,VARCHAR,>,Full null
+bank olm retrieval service,>,VARCHAR,>,Full null
+business loan - general,>,VARCHAR,>,Full null
+business loan - priority sector - agriculture,>,VARCHAR,>,Full null
+business loan - priority sector - others,>,VARCHAR,>,Full null
+business loan - priority sector - small business,>,VARCHAR,>,Full null
+business loan against bank deposits,>,VARCHAR,>,Full null
+business non-funded credit facility - general,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - agriculture,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - small business,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector-others,>,VARCHAR,>,Full null
+commercial vehicle loan,>,VARCHAR,>,Full null
+consumer disclosure report,>,VARCHAR,>,Full null
+consumer loan,>,VARCHAR,>,Full null
+credit card,>,VARCHAR,>,Full null
+education loan,>,VARCHAR,>,Full null
+fleet card,>,VARCHAR,>,Full null
+for individual,>,VARCHAR,>,Full null
+gold loan,>,VARCHAR,>,Full null
+housing loan,>,VARCHAR,>,Full null
+indicative report,>,VARCHAR,>,Full null
+leasing,>,VARCHAR,>,Full null
+loan against bank deposits,>,VARCHAR,>,Full null
+loan against shares/securities,>,VARCHAR,>,Full null
+loan to professional,>,VARCHAR,>,Full null
+locate plus,>,VARCHAR,>,Full null
+microfinance - business loan,>,VARCHAR,>,Full null
+microfinance - housing loan,>,VARCHAR,>,Full null
+microfinance - other,>,VARCHAR,>,Full null
+microfinance - personal loan,>,VARCHAR,>,Full null
+microfinance detailed report,>,VARCHAR,>,Full null
+non-funded credit facility,>,VARCHAR,>,Full null
+other,>,VARCHAR,>,Full null
+overdraft,>,VARCHAR,>,Full null
+personal loan,>,VARCHAR,>,Full null
+property loan,>,VARCHAR,>,Full null
+retro enquiry,>,VARCHAR,>,Full null
+secured,>,VARCHAR,>,Full null
+summary report,>,VARCHAR,>,Full null
+telco - broadband,>,VARCHAR,>,Full null
+telco - landline,>,VARCHAR,>,Full null
+telco - wireless,>,VARCHAR,>,Full null
+two-wheeler loan,>,VARCHAR,>,Full null
+unsecured,>,VARCHAR,>,Full null
+vb olm retrieval service,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - small  business,>,VARCHAR,>,Full null
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbjr_fl_bro_rrpdpdbt90p3m"";",,,,
+_id,>,INTEGER,>,
+account review,>,VARCHAR,>,Full null
+adviser liability,>,VARCHAR,>,Full null
+auto loan (personal),>,VARCHAR,>,Full null
+bank olm retrieval service,>,VARCHAR,>,Full null
+business loan - general,>,VARCHAR,>,Full null
+business loan - priority sector - agriculture,>,VARCHAR,>,Full null
+business loan - priority sector - others,>,VARCHAR,>,Full null
+business loan - priority sector - small business,>,VARCHAR,>,Full null
+business loan against bank deposits,>,VARCHAR,>,Full null
+business non-funded credit facility - general,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - agriculture,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - small business,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector-others,>,VARCHAR,>,Full null
+commercial vehicle loan,>,VARCHAR,>,Full null
+consumer disclosure report,>,VARCHAR,>,Full null
+consumer loan,>,VARCHAR,>,Full null
+credit card,>,VARCHAR,>,Full null
+education loan,>,VARCHAR,>,Full null
+fleet card,>,VARCHAR,>,Full null
+for individual,>,VARCHAR,>,Full null
+gold loan,>,VARCHAR,>,Full null
+housing loan,>,VARCHAR,>,Full null
+indicative report,>,VARCHAR,>,Full null
+leasing,>,VARCHAR,>,Full null
+loan against bank deposits,>,VARCHAR,>,Full null
+loan against shares/securities,>,VARCHAR,>,Full null
+loan to professional,>,VARCHAR,>,Full null
+locate plus,>,VARCHAR,>,Full null
+microfinance - business loan,>,VARCHAR,>,Full null
+microfinance - housing loan,>,VARCHAR,>,Full null
+microfinance - other,>,VARCHAR,>,Full null
+microfinance - personal loan,>,VARCHAR,>,Full null
+microfinance detailed report,>,VARCHAR,>,Full null
+non-funded credit facility,>,VARCHAR,>,Full null
+other,>,VARCHAR,>,Full null
+overdraft,>,VARCHAR,>,Full null
+personal loan,>,VARCHAR,>,Full null
+property loan,>,VARCHAR,>,Full null
+retro enquiry,>,VARCHAR,>,Full null
+secured,>,VARCHAR,>,Full null
+summary report,>,VARCHAR,>,Full null
+telco - broadband,>,VARCHAR,>,Full null
+telco - landline,>,VARCHAR,>,Full null
+telco - wireless,>,VARCHAR,>,Full null
+two-wheeler loan,>,VARCHAR,>,Full null
+unsecured,>,VARCHAR,>,Full null
+vb olm retrieval service,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - small  business,>,VARCHAR,>,Full null
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbjr_fl_bro_rrpdpdbt90p6m"";",,,,
+_id,>,INTEGER,>,
+account review,>,VARCHAR,>,Full null
+adviser liability,>,VARCHAR,>,Full null
+auto loan (personal),>,VARCHAR,>,Full null
+bank olm retrieval service,>,VARCHAR,>,Full null
+business loan - general,>,VARCHAR,>,Full null
+business loan - priority sector - agriculture,>,VARCHAR,>,Full null
+business loan - priority sector - others,>,VARCHAR,>,Full null
+business loan - priority sector - small business,>,VARCHAR,>,Full null
+business loan against bank deposits,>,VARCHAR,>,Full null
+business non-funded credit facility - general,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - agriculture,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - small business,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector-others,>,VARCHAR,>,Full null
+commercial vehicle loan,>,VARCHAR,>,Full null
+consumer disclosure report,>,VARCHAR,>,Full null
+consumer loan,>,VARCHAR,>,Full null
+credit card,>,VARCHAR,>,Full null
+education loan,>,VARCHAR,>,Full null
+fleet card,>,VARCHAR,>,Full null
+for individual,>,VARCHAR,>,Full null
+gold loan,>,VARCHAR,>,Full null
+housing loan,>,VARCHAR,>,Full null
+indicative report,>,VARCHAR,>,Full null
+leasing,>,VARCHAR,>,Full null
+loan against bank deposits,>,VARCHAR,>,Full null
+loan against shares/securities,>,VARCHAR,>,Full null
+loan to professional,>,VARCHAR,>,Full null
+locate plus,>,VARCHAR,>,Full null
+microfinance - business loan,>,VARCHAR,>,Full null
+microfinance - housing loan,>,VARCHAR,>,Full null
+microfinance - other,>,VARCHAR,>,Full null
+microfinance - personal loan,>,VARCHAR,>,Full null
+microfinance detailed report,>,VARCHAR,>,Full null
+non-funded credit facility,>,VARCHAR,>,Full null
+other,>,VARCHAR,>,Full null
+overdraft,>,VARCHAR,>,Full null
+personal loan,>,VARCHAR,>,Full null
+property loan,>,VARCHAR,>,Full null
+retro enquiry,>,VARCHAR,>,Full null
+secured,>,VARCHAR,>,Full null
+summary report,>,VARCHAR,>,Full null
+telco - broadband,>,VARCHAR,>,Full null
+telco - landline,>,VARCHAR,>,Full null
+telco - wireless,>,VARCHAR,>,Full null
+two-wheeler loan,>,VARCHAR,>,Full null
+unsecured,>,VARCHAR,>,Full null
+vb olm retrieval service,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - small  business,>,VARCHAR,>,Full null
+,,,,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbjr_fl_bro_rrpdpdbt91120"";",,,,
+_id,>,INTEGER,>,
+account review,>,INTEGER,>,
+adviser liability,>,INTEGER,>,
+auto loan (personal),>,INTEGER,>,
+bank olm retrieval service,>,INTEGER,>,
+business loan - general,>,INTEGER,>,
+business loan - priority sector - agriculture,>,INTEGER,>,
+business loan - priority sector - others,>,INTEGER,>,
+business loan - priority sector - small business,>,INTEGER,>,
+business loan against bank deposits,>,INTEGER,>,
+business non-funded credit facility - general,>,INTEGER,>,
+business non-funded credit facility - priority sector - agriculture,>,INTEGER,>,
+business non-funded credit facility - priority sector - small business,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector-others,>,INTEGER,>,
+commercial vehicle loan,>,INTEGER,>,
+consumer disclosure report,>,INTEGER,>,
+consumer loan,>,INTEGER,>,
+credit card,>,INTEGER,>,
+education loan,>,INTEGER,>,
+fleet card,>,INTEGER,>,
+for individual,>,INTEGER,>,
+gold loan,>,INTEGER,>,
+housing loan,>,INTEGER,>,
+indicative report,>,INTEGER,>,
+leasing,>,INTEGER,>,
+loan against bank deposits,>,INTEGER,>,
+loan against shares/securities,>,INTEGER,>,
+loan to professional,>,INTEGER,>,
+locate plus,>,INTEGER,>,
+microfinance - business loan,>,INTEGER,>,
+microfinance - housing loan,>,INTEGER,>,
+microfinance - other,>,INTEGER,>,
+microfinance - personal loan,>,INTEGER,>,
+microfinance detailed report,>,INTEGER,>,
+non-funded credit facility,>,INTEGER,>,
+other,>,INTEGER,>,
+overdraft,>,INTEGER,>,
+personal loan,>,INTEGER,>,
+property loan,>,INTEGER,>,
+retro enquiry,>,INTEGER,>,
+secured,>,INTEGER,>,
+summary report,>,INTEGER,>,
+telco - broadband,>,INTEGER,>,
+telco - landline,>,INTEGER,>,
+telco - wireless,>,INTEGER,>,
+two-wheeler loan,>,INTEGER,>,
+unsecured,>,INTEGER,>,
+vb olm retrieval service,>,INTEGER,>,
+business non-funded credit facility - priority sector - small  business,>,INTEGER,>,
+,,,,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbjr_fl_bro_rrplivetrades"";",,,,
+_id,>,INTEGER,>,
+account review,>,INTEGER,>,
+adviser liability,>,INTEGER,>,
+auto loan (personal),>,INTEGER,>,
+bank olm retrieval service,>,INTEGER,>,
+business loan - general,>,INTEGER,>,
+business loan - priority sector - agriculture,>,INTEGER,>,
+business loan - priority sector - others,>,INTEGER,>,
+business loan - priority sector - small business,>,INTEGER,>,
+business loan against bank deposits,>,INTEGER,>,
+business non-funded credit facility - general,>,INTEGER,>,
+business non-funded credit facility - priority sector - agriculture,>,INTEGER,>,
+business non-funded credit facility - priority sector - small business,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector-others,>,INTEGER,>,
+commercial vehicle loan,>,INTEGER,>,
+consumer disclosure report,>,INTEGER,>,
+consumer loan,>,INTEGER,>,
+credit card,>,INTEGER,>,
+education loan,>,INTEGER,>,
+fleet card,>,INTEGER,>,
+for individual,>,INTEGER,>,
+gold loan,>,INTEGER,>,
+housing loan,>,INTEGER,>,
+indicative report,>,INTEGER,>,
+leasing,>,INTEGER,>,
+loan against bank deposits,>,INTEGER,>,
+loan against shares/securities,>,INTEGER,>,
+loan to professional,>,INTEGER,>,
+locate plus,>,INTEGER,>,
+microfinance - business loan,>,INTEGER,>,
+microfinance - housing loan,>,INTEGER,>,
+microfinance - other,>,INTEGER,>,
+microfinance - personal loan,>,INTEGER,>,
+microfinance detailed report,>,INTEGER,>,
+non-funded credit facility,>,INTEGER,>,
+other,>,INTEGER,>,
+overdraft,>,INTEGER,>,
+personal loan,>,INTEGER,>,
+property loan,>,INTEGER,>,
+retro enquiry,>,INTEGER,>,
+secured,>,INTEGER,>,
+summary report,>,INTEGER,>,
+telco - broadband,>,INTEGER,>,
+telco - landline,>,INTEGER,>,
+telco - wireless,>,INTEGER,>,
+two-wheeler loan,>,INTEGER,>,
+unsecured,>,INTEGER,>,
+vb olm retrieval service,>,INTEGER,>,
+business non-funded credit facility - priority sector - small  business,>,INTEGER,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbjr_fl_bro_rrptiinl1m"";",,,,
+_id,>,INTEGER,>,
+account review,>,INTEGER,>,
+adviser liability,>,INTEGER,>,
+auto loan (personal),>,INTEGER,>,
+bank olm retrieval service,>,INTEGER,>,
+business loan - general,>,INTEGER,>,
+business loan - priority sector - agriculture,>,INTEGER,>,
+business loan - priority sector - others,>,INTEGER,>,
+business loan - priority sector - small business,>,INTEGER,>,
+business loan against bank deposits,>,INTEGER,>,
+business non-funded credit facility - general,>,INTEGER,>,
+business non-funded credit facility - priority sector - agriculture,>,INTEGER,>,
+business non-funded credit facility - priority sector - small business,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector-others,>,INTEGER,>,
+commercial vehicle loan,>,INTEGER,>,
+consumer disclosure report,>,INTEGER,>,
+consumer loan,>,INTEGER,>,
+credit card,>,INTEGER,>,
+education loan,>,INTEGER,>,
+fleet card,>,INTEGER,>,
+for individual,>,INTEGER,>,
+gold loan,>,INTEGER,>,
+housing loan,>,INTEGER,>,
+indicative report,>,INTEGER,>,
+leasing,>,INTEGER,>,
+loan against bank deposits,>,INTEGER,>,
+loan against shares/securities,>,INTEGER,>,
+loan to professional,>,INTEGER,>,
+locate plus,>,INTEGER,>,
+microfinance - business loan,>,INTEGER,>,
+microfinance - housing loan,>,INTEGER,>,
+microfinance - other,>,INTEGER,>,
+microfinance - personal loan,>,INTEGER,>,
+microfinance detailed report,>,INTEGER,>,
+non-funded credit facility,>,INTEGER,>,
+other,>,INTEGER,>,
+overdraft,>,INTEGER,>,
+personal loan,>,INTEGER,>,
+property loan,>,INTEGER,>,
+retro enquiry,>,INTEGER,>,
+secured,>,INTEGER,>,
+summary report,>,INTEGER,>,
+telco - broadband,>,INTEGER,>,
+telco - landline,>,INTEGER,>,
+telco - wireless,>,INTEGER,>,
+two-wheeler loan,>,INTEGER,>,
+unsecured,>,INTEGER,>,
+vb olm retrieval service,>,INTEGER,>,
+business non-funded credit facility - priority sector - small  business,>,INTEGER,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbjr_fl_bro_rrptiinl3m"";",,,,
+_id,>,INTEGER,>,
+account review,>,VARCHAR,>,Full null
+adviser liability,>,VARCHAR,>,Full null
+auto loan (personal),>,VARCHAR,>,Full null
+bank olm retrieval service,>,VARCHAR,>,Full null
+business loan - general,>,VARCHAR,>,Full null
+business loan - priority sector - agriculture,>,VARCHAR,>,Full null
+business loan - priority sector - others,>,VARCHAR,>,Full null
+business loan - priority sector - small business,>,VARCHAR,>,Full null
+business loan against bank deposits,>,VARCHAR,>,Full null
+business non-funded credit facility - general,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - agriculture,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - small business,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector-others,>,VARCHAR,>,Full null
+commercial vehicle loan,>,VARCHAR,>,Full null
+consumer disclosure report,>,VARCHAR,>,Full null
+consumer loan,>,VARCHAR,>,Full null
+credit card,>,VARCHAR,>,Full null
+education loan,>,VARCHAR,>,Full null
+fleet card,>,VARCHAR,>,Full null
+for individual,>,VARCHAR,>,Full null
+gold loan,>,VARCHAR,>,Full null
+housing loan,>,VARCHAR,>,Full null
+indicative report,>,VARCHAR,>,Full null
+leasing,>,VARCHAR,>,Full null
+loan against bank deposits,>,VARCHAR,>,Full null
+loan against shares/securities,>,VARCHAR,>,Full null
+loan to professional,>,VARCHAR,>,Full null
+locate plus,>,VARCHAR,>,Full null
+microfinance - business loan,>,VARCHAR,>,Full null
+microfinance - housing loan,>,VARCHAR,>,Full null
+microfinance - other,>,VARCHAR,>,Full null
+microfinance - personal loan,>,VARCHAR,>,Full null
+microfinance detailed report,>,VARCHAR,>,Full null
+non-funded credit facility,>,VARCHAR,>,Full null
+other,>,VARCHAR,>,Full null
+overdraft,>,VARCHAR,>,Full null
+personal loan,>,VARCHAR,>,Full null
+property loan,>,VARCHAR,>,Full null
+retro enquiry,>,VARCHAR,>,Full null
+secured,>,VARCHAR,>,Full null
+summary report,>,VARCHAR,>,Full null
+telco - broadband,>,VARCHAR,>,Full null
+telco - landline,>,VARCHAR,>,Full null
+telco - wireless,>,VARCHAR,>,Full null
+two-wheeler loan,>,VARCHAR,>,Full null
+unsecured,>,VARCHAR,>,Full null
+vb olm retrieval service,>,VARCHAR,>,Full null
+,,,,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbjr_fl_bro_rrptotalos"";",,,,
+_id,>,INTEGER,>,
+account review,>,INTEGER,>,
+adviser liability,>,INTEGER,>,
+auto loan (personal),>,INTEGER,>,
+bank olm retrieval service,>,INTEGER,>,
+business loan - general,>,INTEGER,>,
+business loan - priority sector - agriculture,>,INTEGER,>,
+business loan - priority sector - others,>,INTEGER,>,
+business loan - priority sector - small business,>,INTEGER,>,
+business loan against bank deposits,>,INTEGER,>,
+business non-funded credit facility - general,>,INTEGER,>,
+business non-funded credit facility - priority sector - agriculture,>,INTEGER,>,
+business non-funded credit facility - priority sector - small  business,>,INTEGER,>,
+business non-funded credit facility - priority sector-others,>,INTEGER,>,
+commercial vehicle loan,>,INTEGER,>,
+consumer disclosure report,>,INTEGER,>,
+consumer loan,>,INTEGER,>,
+credit card,>,INTEGER,>,
+education loan,>,INTEGER,>,
+fleet card,>,INTEGER,>,
+for individual,>,INTEGER,>,
+gold loan,>,INTEGER,>,
+housing loan,>,INTEGER,>,
+indicative report,>,INTEGER,>,
+leasing,>,INTEGER,>,
+loan against bank deposits,>,INTEGER,>,
+loan against shares/securities,>,INTEGER,>,
+loan to professional,>,INTEGER,>,
+locate plus,>,INTEGER,>,
+microfinance - business loan,>,INTEGER,>,
+microfinance - housing loan,>,INTEGER,>,
+microfinance - other,>,INTEGER,>,
+microfinance - personal loan,>,INTEGER,>,
+microfinance detailed report,>,INTEGER,>,
+non-funded credit facility,>,INTEGER,>,
+other,>,INTEGER,>,
+overdraft,>,INTEGER,>,
+personal loan,>,INTEGER,>,
+property loan,>,INTEGER,>,
+retro enquiry,>,INTEGER,>,
+secured,>,INTEGER,>,
+summary report,>,INTEGER,>,
+telco - broadband,>,INTEGER,>,
+telco - landline,>,INTEGER,>,
+telco - wireless,>,INTEGER,>,
+two-wheeler loan,>,INTEGER,>,
+unsecured,>,INTEGER,>,
+vb olm retrieval service,>,INTEGER,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbjr_fl_bro_rrptotinqs"";",,,,
+_id,>,INTEGER,>,
+account review,>,INTEGER,>,
+adviser liability,>,INTEGER,>,
+auto loan (personal),>,INTEGER,>,
+bank olm retrieval service,>,INTEGER,>,
+business loan - general,>,INTEGER,>,
+business loan - priority sector - agriculture,>,INTEGER,>,
+business loan - priority sector - others,>,INTEGER,>,
+business loan - priority sector - small business,>,INTEGER,>,
+business loan against bank deposits,>,INTEGER,>,
+business non-funded credit facility - general,>,INTEGER,>,
+business non-funded credit facility - priority sector - agriculture,>,INTEGER,>,
+business non-funded credit facility - priority sector - small business,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector-others,>,INTEGER,>,
+commercial vehicle loan,>,INTEGER,>,
+consumer disclosure report,>,INTEGER,>,
+consumer loan,>,INTEGER,>,
+credit card,>,INTEGER,>,
+education loan,>,INTEGER,>,
+fleet card,>,INTEGER,>,
+for individual,>,INTEGER,>,
+gold loan,>,INTEGER,>,
+housing loan,>,INTEGER,>,
+indicative report,>,INTEGER,>,
+leasing,>,INTEGER,>,
+loan against bank deposits,>,INTEGER,>,
+loan against shares/securities,>,INTEGER,>,
+loan to professional,>,INTEGER,>,
+locate plus,>,INTEGER,>,
+microfinance - business loan,>,INTEGER,>,
+microfinance - housing loan,>,INTEGER,>,
+microfinance - other,>,INTEGER,>,
+microfinance - personal loan,>,INTEGER,>,
+microfinance detailed report,>,INTEGER,>,
+non-funded credit facility,>,INTEGER,>,
+other,>,INTEGER,>,
+overdraft,>,INTEGER,>,
+personal loan,>,INTEGER,>,
+property loan,>,INTEGER,>,
+retro enquiry,>,INTEGER,>,
+secured,>,INTEGER,>,
+summary report,>,INTEGER,>,
+telco - broadband,>,INTEGER,>,
+telco - landline,>,INTEGER,>,
+telco - wireless,>,INTEGER,>,
+two-wheeler loan,>,INTEGER,>,
+unsecured,>,INTEGER,>,
+vb olm retrieval service,>,INTEGER,>,
+business non-funded credit facility - priority sector - small  business,>,INTEGER,>,
+,,,,
+,,,,
+,,,,
+gonogocustomerapplication.gng_acr_mbjr_fl_bro_rrptsfirstloan,,,,
+_id,>,INTEGER,>,
+auto loan (personal),>,VARCHAR,>,Full null
+business loan - general,>,VARCHAR,>,Full null
+business loan - priority sector - agriculture,>,VARCHAR,>,Full null
+business loan - priority sector - others,>,VARCHAR,>,Full null
+business loan - priority sector - small business,>,VARCHAR,>,Full null
+business loan against bank deposits,>,VARCHAR,>,Full null
+business non-funded credit facility - general,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - small business,>,VARCHAR,>,Full null
+commercial vehicle loan,>,VARCHAR,>,Full null
+consumer loan,>,VARCHAR,>,Full null
+credit card,>,VARCHAR,>,Full null
+education loan,>,VARCHAR,>,Full null
+fleet card,>,VARCHAR,>,Full null
+gold loan,>,VARCHAR,>,Full null
+housing loan,>,VARCHAR,>,Full null
+loan against bank deposits,>,VARCHAR,>,Full null
+loan against shares/securities,>,VARCHAR,>,Full null
+loan to professional,>,VARCHAR,>,Full null
+microfinance - business loan,>,VARCHAR,>,Full null
+microfinance - housing loan,>,VARCHAR,>,Full null
+microfinance - other,>,VARCHAR,>,Full null
+microfinance - personal loan,>,VARCHAR,>,Full null
+non-funded credit facility,>,VARCHAR,>,Full null
+other,>,VARCHAR,>,Full null
+overdraft,>,VARCHAR,>,Full null
+personal loan,>,VARCHAR,>,Full null
+property loan,>,VARCHAR,>,Full null
+two-wheeler loan,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - small  business,>,VARCHAR,>,Full null
+leasing,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - agriculture,>,VARCHAR,>,Full null
+,,,,
+,,,,
+"gonogocustomerapplication"".""gng_acr_mbjr_fl_bro_rrptslastloan"";",,,,
+_id,>,INTEGER,>,
+auto loan (personal),>,INTEGER,>,
+business loan - general,>,INTEGER,>,
+business loan - priority sector - agriculture,>,INTEGER,>,
+business loan - priority sector - others,>,INTEGER,>,
+business loan - priority sector - small business,>,INTEGER,>,
+business loan against bank deposits,>,VARCHAR,>,Full null
+business non-funded credit facility - general,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - small business,>,VARCHAR,>,Full null
+commercial vehicle loan,>,INTEGER,>,
+consumer loan,>,INTEGER,>,
+credit card,>,INTEGER,>,
+education loan,>,INTEGER,>,
+fleet card,>,VARCHAR,>,Full null
+gold loan,>,INTEGER,>,
+housing loan,>,INTEGER,>,
+loan against bank deposits,>,INTEGER,>,
+loan against shares/securities,>,INTEGER,>,
+loan to professional,>,INTEGER,>,
+microfinance - business loan,>,VARCHAR,>,Full null
+microfinance - housing loan,>,VARCHAR,>,Full null
+microfinance - other,>,VARCHAR,>,Full null
+microfinance - personal loan,>,VARCHAR,>,Full null
+non-funded credit facility,>,VARCHAR,>,Full null
+other,>,INTEGER,>,
+overdraft,>,INTEGER,>,
+personal loan,>,INTEGER,>,
+property loan,>,INTEGER,>,
+two-wheeler loan,>,INTEGER,>,
+business non-funded credit facility - priority sector - agriculture,>,VARCHAR,>,
+business non-funded credit facility - priority sector - small  business,>,INTEGER,>,
+leasing,>,VARCHAR,>,Full null
+,,,,
+,,,,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbjr_fl_bro_rrptslastupdate"";",,,,
+_id,>,INTEGER,>,
+auto loan (personal),>,INTEGER,>,
+business loan - priority sector - others,>,VARCHAR,>,Full null
+business loan - priority sector - small business,>,INTEGER,>,
+business loan against bank deposits,>,VARCHAR,>,Full null
+business non-funded credit facility - general,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - small business,>,VARCHAR,>,Full null
+commercial vehicle loan,>,INTEGER,>,
+consumer loan,>,INTEGER,>,
+credit card,>,INTEGER,>,
+education loan,>,INTEGER,>,
+fleet card,>,VARCHAR,>,Full null
+gold loan,>,INTEGER,>,
+housing loan,>,INTEGER,>,
+loan against bank deposits,>,INTEGER,>,
+loan against shares/securities,>,INTEGER,>,
+loan to professional,>,INTEGER,>,
+microfinance - business loan,>,VARCHAR,>,Full null
+microfinance - housing loan,>,VARCHAR,>,Full null
+microfinance - other,>,VARCHAR,>,Full null
+microfinance - personal loan,>,VARCHAR,>,Full null
+non-funded credit facility,>,VARCHAR,>,Full null
+other,>,INTEGER,>,
+overdraft,>,INTEGER,>,
+personal loan,>,INTEGER,>,
+property loan,>,INTEGER,>,
+two-wheeler loan,>,INTEGER,>,
+business loan - general,>,INTEGER,>,
+business loan - priority sector - agriculture,>,INTEGER,>,
+business non-funded credit facility - priority sector - agriculture,>,VARCHAR,>,Full null
+business non-funded credit facility - priority sector - small  business,>,VARCHAR,>,Full null
+leasing,>,VARCHAR,>,Full null
+,,,,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbjr_fl_pdfreport"";",,,,
+_id,>,INTEGER,>,
+base64,>,VARCHAR,>,
+subtype,>,VARCHAR,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbjr_fl_rjo_accountlist"";",,,,
+_id,>,INTEGER,>,
+accountnumber,>,INTEGER,>,
+accounttype,>,INTEGER,>,
+actualpaymentamount,>,INTEGER,>,
+cashlimit,>,VARCHAR,>,Full null
+cibilremarkcode,>,VARCHAR,>,Full null
+creditlimit,>,VARCHAR,>,Full null
+currentbalance,>,INTEGER,>,
+dateclosed,>,TIMESTAMP,>,
+dateofentryforcibilremarkscode,>,VARCHAR,>,Full null
+dateofentryforerrorcode,>,VARCHAR,>,Full null
+dateoflastpayment,>,TIMESTAMP,>,
+dateopenedordisbursed,>,TIMESTAMP,>,
+datereportedandcertified,>,TIMESTAMP,>,
+emiamount,>,INTEGER,>,
+errorcode,>,VARCHAR,>,Full null
+errorordisputeremarkscode1,>,VARCHAR,>,Full null
+errorordisputeremarkscode2,>,VARCHAR,>,Full null
+highcreditorsanctionedamount,>,INTEGER,>,
+overdueamount,>,INTEGER,>,
+ownershipindicator,>,INTEGER,>,
+paymentfrequence,>,INTEGER,>,
+paymenthistory1,>,VARCHAR,>,
+paymenthistory2,>,VARCHAR,>,
+paymenthistoryenddate,>,TIMESTAMP,>,
+paymenthistorystartdate,>,TIMESTAMP,>,
+rateofinterest,>,DECIMAL,>,
+repaymenttenure,>,INTEGER,>,
+reportingmembershortname,>,VARCHAR,>,
+settlementamount,>,VARCHAR,>,Full null
+suitfiledorwilfuldefault,>,VARCHAR,>,Full null
+typeofcollateral,>,INTEGER,>,
+valueofcollateral,>,INTEGER,>,
+writtenoffamountprincipal,>,INTEGER,>,
+writtenoffamounttotal,>,INTEGER,>,
+writtenoffandsettledstatus,>,INTEGER,>,
+,,,,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbjr_fl_rjo_addresslist"";",,,,
+_id,>,INTEGER,>,
+addresscategory,>,INTEGER,>,
+addressline1,>,VARCHAR,>,
+addressline2,>,VARCHAR,>,
+addressline3,>,VARCHAR,>,
+addressline4,>,VARCHAR,>,
+addressline5,>,VARCHAR,>,
+datereported,>,TIMESTAMP,>,
+enrichedthroughtenquiry,>,VARCHAR,>,
+pincode,>,INTEGER,>,
+residencecode,>,INTEGER,>,
+statecode,>,INTEGER,>,
+,,,,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbjr_fl_rjo_employmentlist"";",,,,
+_id,>,INTEGER,>,
+accounttype,>,INTEGER,>,
+datereported,>,TIMESTAMP,>,
+income,>,INTEGER,>,
+monthlyannuallyindicator,>,VARCHAR,>,
+netgrossindicator,>,VARCHAR,>,
+occupationcode,>,INTEGER,>,
+cibilremarkcode,>,VARCHAR,>,Full null
+dateofentryforcibilremarkscode,>,VARCHAR,>,Full null
+,,,,
+,,,,
+,,,,
+".""gonogocustomerapplication"".""gng_acr_mbjr_fl_rjo_enquirylist"";",,,,
+_id,>,INTEGER,>,
+datereported,>,TIMESTAMP,>,
+enquiryamount,>,INTEGER,>,
+enquirypurpose,>,INTEGER,>,
+reportingmembershortname,>,VARCHAR,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbjr_fl_rjo_errordomainlist"";",,,,
+_id,>,INTEGER,>,
+errorcategory,>,VARCHAR,>,
+errorcode,>,VARCHAR,>,
+errordescription,>,VARCHAR,>,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbjr_fl_rjo_header"";",,,,
+_id,>,INTEGER,>,
+dateproceed,>,INTEGER,>,
+enquirycontrolnumber,>,INTEGER,>,
+enquirymemberuserid,>,VARCHAR,>,
+memberreferencenumber,>,INTEGER,>,
+serialversionuid,>,INTEGER,>,
+subjectreturncode,>,INTEGER,>,
+timeproceed,>,INTEGER,>,
+version,>,INTEGER,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbjr_fl_rjo_idlist"";",,,,
+_id,>,INTEGER,>,
+enrichedthroughtenquiry,>,VARCHAR,>,
+expirydate,>,TIMESTAMP,>,
+idtype,>,VARCHAR,>,
+idvalue,>,VARCHAR,>,
+issuedate,>,TIMESTAMP,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbjr_fl_rjo_name"";",,,,
+_id,>,INTEGER,>,
+cibilremarkcode,>,VARCHAR,>,Full null
+dateofentryforcibilremarkscode,>,VARCHAR,>,Full null
+dob,>,TIMESTAMP,>,
+gender,>,INTEGER,>,
+name1,>,VARCHAR,>,
+name2,>,VARCHAR,>,
+name3,>,VARCHAR,>,
+name4,>,VARCHAR,>,
+name5,>,VARCHAR,>,Full null
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbjr_fl_rjo_phonelist"";",,,,
+_id,>,INTEGER,>,
+enrichenquiryforphone,>,VARCHAR,>,
+telephoneextention,>,INTEGER,>,
+telephonenumber,>,INTEGER,>,
+telephonetype,>,INTEGER,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbjr_fl_rjo_scorelist"";",,,,
+_id,>,INTEGER,>,
+exclusioncode1,>,VARCHAR,>,Full null
+exclusioncode10,>,VARCHAR,>,Full null
+exclusioncode4,>,VARCHAR,>,Full null
+exclusioncode5,>,VARCHAR,>,Full null
+exclusioncode9,>,VARCHAR,>,Full null
+reasoncode1,>,INTEGER,>,
+reasoncode2,>,INTEGER,>,
+reasoncode3,>,INTEGER,>,
+reasoncode4,>,INTEGER,>,
+reasoncode5,>,INTEGER,>,
+score,>,INTEGER,>,
+scorecardname,>,INTEGER,>,
+scorecardversion,>,INTEGER,>,
+scoredate,>,TIMESTAMP,>,
+scoreerrorcode,>,VARCHAR,>,Full null
+scorename,>,VARCHAR,>,
+,,,,
+,,,,
+"gonogocustomerapplication"".""gng_acr_mbjr_header"";",,,,
+_id,>,INTEGER,>,
+applicationid,>,INTEGER,>,
+consumerid,>,INTEGER,>,
+dateofrequest,>,TIMESTAMP,>,
+responsetype,>,VARCHAR,>,
+,,,,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbjr_mr_activetradelines"";",,,,
+_id,>,INTEGER,>,
+accountnumber,>,INTEGER,>,
+accountopendate,>,TIMESTAMP,>,
+accounttype,>,VARCHAR,>,
+active,>,VARCHAR,>,
+assetclasshistory,>,VARCHAR,>,Full null
+bureauname,>,VARCHAR,>,
+cashlimit,>,VARCHAR,>,Full null
+closeddate,>,TIMESTAMP,>,
+collateral,>,VARCHAR,>,
+creditinstitution,>,VARCHAR,>,
+creditlimit,>,VARCHAR,>,Full null
+currentbalance,>,INTEGER,>,
+interestrate,>,DECIMAL,>,
+lastpaymentamount,>,INTEGER,>,
+lastpaymentdate,>,TIMESTAMP,>,
+monthlyinstallmentamount,>,INTEGER,>,
+overdueamount,>,INTEGER,>,
+ownership,>,VARCHAR,>,
+paymenthistory,>,VARCHAR,>,
+paymenthistoryarr,>,VARCHAR,>,
+paymenthistoryenddate,>,TIMESTAMP,>,
+paymenthistorystartdate,>,TIMESTAMP,>,
+paymenthistorystartdatetemp,>,VARCHAR,>,Full null
+reportedbureaus,>,VARCHAR,>,
+reporteddate,>,TIMESTAMP,>,
+sanctionedamount,>,INTEGER,>,
+secured,>,VARCHAR,>,
+settlementamount,>,VARCHAR,>,Full null
+suitfiled,>,VARCHAR,>,Full null
+tenure,>,INTEGER,>,
+writeoff,>,VARCHAR,>,
+writeoffamt,>,VARCHAR,>,Full null
+writeoffamtprincipal,>,VARCHAR,>,Full null
+assetclassificationstatus,>,VARCHAR,>,Full null
+key,>,VARCHAR,>,Full null
+paymentstatus,>,VARCHAR,>,Full null
+suitfiledstatus,>,VARCHAR,>,Full null
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbjr_mr_dc_addresslist"";",,,,
+_id,>,INTEGER,>,
+addresstype,>,INTEGER,>,
+bureaureported,>,VARCHAR,>,
+datereported,>,TIMESTAMP,>,
+value,>,VARCHAR,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbjr_mr_dc_doblist"";",,,,
+_id,>,INTEGER,>,
+bureaureported,>,VARCHAR,>,
+value,>,TIMESTAMP,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbjr_mr_dc_emaillist"";",,,,
+_id,>,INTEGER,>,
+bureaureported,>,VARCHAR,>,
+idtype,>,VARCHAR,>,
+value,>,VARCHAR,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbjr_mr_dc_kycidlist"";",,,,
+_id,>,INTEGER,>,
+bureaureported,>,VARCHAR,>,
+idtype,>,VARCHAR,>,Full null
+value,>,VARCHAR,>,
+,,,,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbjr_mr_dc_namelist"";",,,,
+_id,>,INTEGER,>,
+bureaureported,>,VARCHAR,>,
+value,>,VARCHAR,>,
+,,,,
+".""gonogocustomerapplication"".""gng_acr_mbjr_mr_dc_phonelist"";",,,,
+_id,>,INTEGER,>,
+bureaureported,>,VARCHAR,>,
+phonetype,>,VARCHAR,>,Full null
+value,>,INTEGER,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbjr_mr_enquirydata"";",,,,
+_id,>,INTEGER,>,
+addresslist,>,VARCHAR,>,
+dob,>,TIMESTAMP,>,
+gender,>,VARCHAR,>,
+idlist,>,VARCHAR,>,
+name,>,VARCHAR,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbjr_mr_pastenquiry"";",,,,
+_id,>,INTEGER,>,
+amount,>,INTEGER,>,
+bureureported,>,VARCHAR,>,
+enqconvbysameinstflag,>,INTEGER,>,
+enqconvertedflag,>,INTEGER,>,
+enquiryby,>,VARCHAR,>,
+enquirydate,>,TIMESTAMP,>,
+enquiryreason,>,VARCHAR,>,
+,,,,
+,,,,
+,,,,
+".""gonogocustomerapplication"".""gng_acr_mbjr_mr_revcsummary"";",,,,
+_id,>,INTEGER,>,
+balance,>,INTEGER,>,
+days30overdue,>,INTEGER,>,
+days60overdue,>,INTEGER,>,
+days90overdue,>,INTEGER,>,
+openaccount,>,INTEGER,>,
+overdueamount,>,INTEGER,>,
+payments,>,INTEGER,>,
+percentageused,>,INTEGER,>,
+,,,,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbjr_mr_unsecsummary"";",,,,
+_id,>,INTEGER,>,
+balance,>,INTEGER,>,
+days30overdue,>,INTEGER,>,
+days60overdue,>,INTEGER,>,
+days90overdue,>,INTEGER,>,
+openaccount,>,INTEGER,>,
+overdueamount,>,INTEGER,>,
+payments,>,INTEGER,>,
+percentageused,>,INTEGER,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_mbjr_reject"";",,,,
+_id,>,INTEGER,>,
+bureau,>,VARCHAR,>,
+product,>,VARCHAR,>,
+status,>,VARCHAR,>,
+trackingid,>,INTEGER,>,
+code,>,VARCHAR,>,
+description,>,VARCHAR,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_ssr_ar_applicantresult"";",,,,
+_id,>,INTEGER,>,
+applicantid,>,INTEGER,>,
+decision,>,VARCHAR,>,
+deviationrules,>,VARCHAR,>,Full null
+eligibilityamount,>,INTEGER,>,
+eligibilitydecision,>,VARCHAR,>,
+policyid,>,INTEGER,>,
+policyname,>,VARCHAR,>,
+scoringrefid,>,INTEGER,>,
+status,>,VARCHAR,>,
+,,,,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_ssr_ar_appres_er_additionalproperties"";",,,,
+_id,>,INTEGER,>,
+eligibility_name,>,VARCHAR,>,Full null
+matched_eligibility,>,VARCHAR,>,Full null
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_ssr_ar_appres_rules"";",,,,
+_id,>,INTEGER,>,
+criteriaid,>,INTEGER,>,
+exp,>,VARCHAR,>,
+outcome,>,VARCHAR,>,
+remark,>,VARCHAR,>,
+rulename,>,VARCHAR,>,
+,,,,
+,,,,
+".""gonogocustomerapplication"".""gng_acr_ssr_ar_appres_rules_values"";",,,,
+_id,>,INTEGER,>,
+30plus_pl_count,>,INTEGER,>,
+applicant_age,>,INTEGER,>,
+applicant_mode_of_payment,>,VARCHAR,>,
+applicant_monthly_salary,>,INTEGER,>,[]
+applicant_total_year_experience,>,INTEGER,>,[]
+application_city,>,VARCHAR,>,Full null
+application_loan_amount,>,INTEGER,>,
+hl_count,>,INTEGER,>,
+score_value,>,INTEGER,>,[]
+top7,>,VARCHAR,>,
+scity,>,VARCHAR,>,Full null
+digi_bkt_final,>,VARCHAR,>,Full null
+custom_fields$digi_income_cutoff,>,VARCHAR,>,Full null
+digi_age,>,VARCHAR,>,Full null
+digi_income,>,VARCHAR,>,Full null
+digi_mode_ofsalary,>,VARCHAR,>,Full null
+digi_negative_residence,>,VARCHAR,>,Full null
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_ssr_ar_summary"";",,,,
+_id,>,INTEGER,>,
+application-approved-amount,>,INTEGER,>,
+application-decision,>,VARCHAR,>,
+applicantdecesion,>,VARCHAR,>,Full null
+applicationaprvamt,>,VARCHAR,>,Full null
+status,>,VARCHAR,>,Full null
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_ssr_breapplicantresponses"";",,,,
+_id,>,INTEGER,>,
+policyname,>,VARCHAR,>,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_ssr_brear_applicantresult"";",,,,
+_id,>,INTEGER,>,
+applicantid,>,INTEGER,>,
+decision,>,VARCHAR,>,
+eligibilityamount,>,INTEGER,>,
+eligibilitydecision,>,VARCHAR,>,
+policyid,>,INTEGER,>,
+policyname,>,VARCHAR,>,
+scoringrefid,>,INTEGER,>,
+status,>,VARCHAR,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_ssr_brear_ar_eligibilityresponse"";",,,,
+_id,>,INTEGER,>,
+approvedamount,>,INTEGER,>,
+cnt,>,INTEGER,>,
+computedamount,>,INTEGER,>,
+decision,>,VARCHAR,>,
+dp,>,INTEGER,>,
+eligibilityamount,>,INTEGER,>,
+eligibleid,>,INTEGER,>,
+maxamount,>,INTEGER,>,
+maxtenor,>,INTEGER,>,
+minamount,>,INTEGER,>,
+productsallowed,>,INTEGER,>,
+remark,>,VARCHAR,>,
+additionalfields,>,VARCHAR,>,
+additionalproperties,>,VARCHAR,>,
+computedisp,>,VARCHAR,>,
+computelogic,>,VARCHAR,>,
+gridexpression,>,VARCHAR,>,
+gridid,>,INTEGER,>,
+values,>,VARCHAR,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_ssr_brear_ar_other_additional_eligibility"";",,,,
+_id,>,INTEGER,>,
+approved_amount,>,DECIMAL,>,
+decision,>,VARCHAR,>,
+elgbltyid,>,DECIMAL,>,
+remark,>,VARCHAR,>,
+additional_fields,>,VARCHAR,>,
+computed_amount,>,DECIMAL,>,
+compute_disp,>,VARCHAR,>,
+compute_logic,>,VARCHAR,>,
+eligibility_amount,>,DECIMAL,>,
+eligibility_name,>,VARCHAR,>,
+grid_exp,>,VARCHAR,>,
+gridid,>,INTEGER,>,
+matched_eligibility,>,VARCHAR,>,
+max_tenor,>,INTEGER,>,
+values,>,VARCHAR,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_ssr_brear_ar_rules"";",,,,
+_id,>,INTEGER,>,
+criteriaid,>,INTEGER,>,
+exp,>,VARCHAR,>,
+outcome,>,VARCHAR,>,
+remark,>,VARCHAR,>,
+rulename,>,VARCHAR,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acr_ssr_brear_summary"";",,,,
+_id,>,INTEGER,>,
+applicantdecesion,>,VARCHAR,>,
+applicationaprvamt,>,DECIMAL,>,
+status,>,VARCHAR,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_finishedlist"";",,,,
+_id,>,INTEGER,>,
+bureau,>,VARCHAR,>,
+bureaustring,>,VARCHAR,>,
+product,>,VARCHAR,>,
+status,>,VARCHAR,>,
+trackingid,>,INTEGER,>,
+,,,,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_eir_address"";",,,,
+_id,>,INTEGER,>,
+addressline,>,VARCHAR,>,
+city,>,VARCHAR,>,
+pincode,>,INTEGER,>,
+state,>,VARCHAR,>,
+,,,,
+".""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_enqinf"";",,,,
+_id,>,INTEGER,>,
+addresscount,>,INTEGER,>,
+borrowername,>,VARCHAR,>,
+cin,>,VARCHAR,>,Full null
+crn,>,VARCHAR,>,Full null
+dateofregistration,>,VARCHAR,>,Full null
+pan,>,VARCHAR,>,
+tin,>,VARCHAR,>,Full null
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_bps_bdelreponbor"";",,,,
+_id,>,INTEGER,>,
+current,>,VARCHAR,>,
+last24months,>,VARCHAR,>,
+,,,,
+,,,,
+".""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_bps_bdrob_bdrorsogsobin24m"";",,,,
+_id,>,INTEGER,>,
+outsideinstitution_current,>,VARCHAR,>,
+outsideinstitution_last24months,>,VARCHAR,>,
+yourinstitution_current,>,VARCHAR,>,
+yourinstitution_last24months,>,VARCHAR,>,
+,,,,
+,,,,
+".""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_cfdbsv_cfcdv_amt"";",,,,
+_id,>,INTEGER,>,
+contractsclassifiedasnpa,>,VARCHAR,>,Full null
+currency,>,VARCHAR,>,
+drawingpower,>,INTEGER,>,
+highcredit,>,INTEGER,>,
+installmentamt,>,INTEGER,>,
+lastrepaid,>,INTEGER,>,
+naorc,>,VARCHAR,>,Full null
+outstandingbalance,>,INTEGER,>,
+overdue,>,INTEGER,>,
+sanctionedamt,>,INTEGER,>,
+settled,>,INTEGER,>,
+suitfiledamt,>,INTEGER,>,
+writtenoff,>,INTEGER,>,
+,,,,
+,,,,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_cfdbsv_cfcdv_dates"";",,,,
+_id,>,INTEGER,>,
+loanexpirydt,>,TIMESTAMP,>,
+loanrenewaldt,>,TIMESTAMP,>,
+sanctioneddt,>,TIMESTAMP,>,
+wilfuldefault,>,TIMESTAMP,>,
+,,,,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_cfdbsv_cfdetbor"";",,,,
+_id,>,INTEGER,>,
+message,>,VARCHAR,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_cfdbsv_cfgdetails"";",,,,
+_id,>,INTEGER,>,
+creditfacilityguarantordetails,>,VARCHAR,>,Full null
+message,>,VARCHAR,>,
+,,,,
+,,,,
+".""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_cfdbsv_cfhdpdupto24"";",,,,
+_id,>,INTEGER,>,
+acordpd,>,VARCHAR,>,
+osamount,>,INTEGER,>,
+month,>,TIMESTAMP,>,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_cfdbsv_cfhdpdupto25"";",,,,
+acordpd,,empty,,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_cfdbsv_cfhdpdupto26"";",,,,
+osamount,,empty,,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_cfdbsv_cfhdpdupto27"";",,,,
+month,,empty,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_cfdbsv_cfoddetails"";",,,,
+_id,>,INTEGER,>,
+dpd1to30amt,>,INTEGER,>,
+dpd31to60amt,>,INTEGER,>,
+dpd61t090amt,>,INTEGER,>,
+dpd91to180amt,>,INTEGER,>,
+dpdabove180amt,>,INTEGER,>,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_cfdbsv_cfsecdetails"";",,,,
+_id,>,INTEGER,>,
+classification,>,VARCHAR,>,
+currency,>,VARCHAR,>,
+lastreporteddt,>,TIMESTAMP,>,
+relatedtype,>,VARCHAR,>,
+validationdt,>,TIMESTAMP,>,
+value,>,INTEGER,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_cfs_cocf_noofcf"";",,,,
+_id,>,INTEGER,>,
+others,>,INTEGER,>,
+total,>,INTEGER,>,
+yourbank,>,INTEGER,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_cfs_sumofcf"";",,,,
+_id,>,INTEGER,>,
+summaryofcreditfacilitiesrec,>,VARCHAR,>,Full null
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_cpss_oi_nbfco_dcf"";",,,,
+_id,>,INTEGER,>,
+borrower,>,INTEGER,>,
+guarantor,>,INTEGER,>,
+borrowerpercentage,>,VARCHAR,>,Full null
+guarantorpercentage,>,VARCHAR,>,Full null
+,,,,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_cpss_oi_nbfco_dos"";",,,,
+_id,>,INTEGER,>,
+borrower,>,INTEGER,>,
+guarantor,>,INTEGER,>,
+borrowerpercentage,>,VARCHAR,>,Full null
+guarantorpercentage,>,VARCHAR,>,Full null
+,,,,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_cpss_oi_nbfco_tcf"";",,,,
+_id,>,INTEGER,>,
+borrower,>,INTEGER,>,
+guarantor,>,INTEGER,>,
+borrowerpercentage,>,VARCHAR,>,Full null
+guarantorpercentage,>,VARCHAR,>,Full null
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_cpss_oi_nbfco_tos"";",,,,
+_id,>,INTEGER,>,
+borrower,>,INTEGER,>,
+guarantor,>,INTEGER,>,
+borrowerpercentage,>,VARCHAR,>,Full null
+guarantorpercentage,>,VARCHAR,>,Full null
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_cpss_oi_opfb_dcf"";",,,,
+_id,>,INTEGER,>,
+borrower,>,INTEGER,>,
+guarantor,>,INTEGER,>,
+borrowerpercentage,>,VARCHAR,>,Full null
+guarantorpercentage,>,VARCHAR,>,Full null
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_cpss_oi_opfb_dos"";",,,,
+_id,>,INTEGER,>,
+borrower,>,INTEGER,>,
+guarantor,>,INTEGER,>,
+borrowerpercentage,>,VARCHAR,>,Full null
+guarantorpercentage,>,VARCHAR,>,Full null
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_cpss_oi_opfb_tcf"";",,,,
+_id,>,INTEGER,>,
+borrower,>,INTEGER,>,
+guarantor,>,INTEGER,>,
+borrowerpercentage,>,VARCHAR,>,Full null
+guarantorpercentage,>,VARCHAR,>,Full null
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_cpss_oi_opfb_tos"";",,,,
+_id,>,INTEGER,>,
+borrower,>,INTEGER,>,
+guarantor,>,INTEGER,>,
+guarantorpercentage,>,VARCHAR,>,Full null
+borrowerpercentage,>,VARCHAR,>,Full null
+,,,,
+".""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_cpss_oi_opfgnbanks"";",,,,
+_id,>,INTEGER,>,
+latestcfopeneddate,>,TIMESTAMP,>,
+message,>,VARCHAR,>,
+opencf,>,INTEGER,>,
+totallenders,>,INTEGER,>,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_cpss_oi_opsb_dcf"";",,,,
+_id,>,INTEGER,>,
+borrower,>,INTEGER,>,
+guarantor,>,INTEGER,>,
+borrowerpercentage,>,VARCHAR,>,Full null
+guarantorpercentage,>,VARCHAR,>,Full null
+,,,,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_cpss_oi_opsb_dos"";",,,,
+_id,>,INTEGER,>,
+borrower,>,INTEGER,>,
+guarantor,>,INTEGER,>,
+guarantorpercentage,>,VARCHAR,>,Full null
+borrowerpercentage,>,VARCHAR,>,Full null
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_cpss_oi_opsb_tcf"";",,,,
+_id,>,INTEGER,>,
+borrower,>,INTEGER,>,
+guarantor,>,INTEGER,>,
+guarantorpercentage,>,VARCHAR,>,Full null
+borrowerpercentage,>,VARCHAR,>,Full null
+,,,,
+,,,,
+".""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_cpss_oi_opsb_tos"";",,,,
+_id,>,INTEGER,>,
+borrower,>,INTEGER,>,
+guarantor,>,INTEGER,>,
+guarantorpercentage,>,VARCHAR,>,Full null
+borrowerpercentage,>,VARCHAR,>,Full null
+,,,,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_cpss_oi_opubsecbks"";",,,,
+_id,>,INTEGER,>,
+latestcfopeneddate,>,TIMESTAMP,>,
+opencf,>,INTEGER,>,
+totallenders,>,INTEGER,>,
+message,>,VARCHAR,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_cpss_oi_ot"";",,no data,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_cpss_oi_ot_dos"";",,,,
+_id,>,INTEGER,>,
+borrower,>,INTEGER,>,
+borrowerpercentage,>,DECIMAL,>,0.00%
+guarantor,>,INTEGER,>,
+guarantorpercentage,>,DECIMAL,>,0.00%
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_cpss_oi_ot_tcf"";",,,,
+_id,>,INTEGER,>,
+borrower,>,INTEGER,>,
+guarantor,>,INTEGER,>,
+latestcfopeneddate,>,VARCHAR,>,Full null
+message,>,VARCHAR,>,Full null
+opencf,>,VARCHAR,>,Full null
+totallenders,>,VARCHAR,>,Full null
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_cpss_oi_ot_tos"";",,,,
+_id,>,INTEGER,>,
+borrower,>,INTEGER,>,
+borrowerpercentage,>,DECIMAL,>,0.00%
+guarantor,>,INTEGER,>,
+guarantorpercentage,>,DECIMAL,>,0.00%
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_cpss_tot"";",,,,
+_id,>,INTEGER,>,
+delinquentcf,>,INTEGER,>,
+delinquentoutstanding,>,INTEGER,>,
+latestcfopeneddate,>,VARCHAR,>,minus 
+opencf,>,INTEGER,>,
+totalcf,>,INTEGER,>,
+totallenders,>,INTEGER,>,
+totaloutstanding,>,INTEGER,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_cpss_yi_dcf"";",,,,
+_id,>,INTEGER,>,
+borrower,>,INTEGER,>,
+guarantor,>,INTEGER,>,
+borrowerpercentage,>,VARCHAR,>,Full null
+guarantorpercentage,>,VARCHAR,>,Full null
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_cpss_yi_dos"";",,,,
+_id,>,INTEGER,>,
+borrower,>,INTEGER,>,
+borrowerpercentage,>,DECIMAL,>,0.00%
+guarantor,>,INTEGER,>,
+guarantorpercentage,>,DECIMAL,>,0.00%
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_cpss_yi_tcf"";",,,,
+_id,>,INTEGER,>,
+borrower,>,INTEGER,>,
+guarantor,>,INTEGER,>,
+guarantorpercentage,>,VARCHAR,>,Full null
+borrowerpercentage,>,VARCHAR,>,Full null
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_cpss_yi_tos"";",,,,
+_id,>,INTEGER,>,
+borrower,>,INTEGER,>,
+borrowerpercentage,>,DECIMAL,>,0.00%
+guarantor,>,INTEGER,>,
+guarantorpercentage,>,DECIMAL,>,0.00%
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_cpss_yourins"";",,,,
+_id,>,INTEGER,>,
+latestcfopeneddate,>,VARCHAR,>,Full null
+message,>,VARCHAR,>,
+opencf,>,INTEGER,>,
+totallenders,>,INTEGER,>,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_crsummary"";",,,,
+_id,>,INTEGER,>,
+creditratingsummary,>,VARCHAR,>,Full null
+message,>,VARCHAR,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_dis_dib_oi"";",,,,
+_id,>,INTEGER,>,
+dishonoredcheque,>,INTEGER,>,
+wilfuldefault,>,INTEGER,>,
+invoked_amt,>,INTEGER,>,
+invoked_numberofsuitfiled,>,INTEGER,>,
+overduecf_amt,>,INTEGER,>,
+overduecf_numberofsuitfiled,>,INTEGER,>,
+settled_amt,>,INTEGER,>,
+settled_numberofsuitfiled,>,INTEGER,>,
+suitfilled_amt,>,INTEGER,>,
+suitfilled_numberofsuitfiled,>,INTEGER,>,
+writtenoff_amt,>,INTEGER,>,
+writtenoff_numberofsuitfiled,>,INTEGER,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_dis_dib_tot"";",,no data,,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_dis_dib_yi"";",,,,
+_id,>,INTEGER,>,
+dishonoredcheque,>,INTEGER,>,
+wilfuldefault,>,INTEGER,>,
+invoked_amt,>,INTEGER,>,
+invoked_numberofsuitfiled,>,INTEGER,>,
+overduecf_amt,>,INTEGER,>,
+overduecf_numberofsuitfiled,>,INTEGER,>,
+settled_amt,>,INTEGER,>,
+settled_numberofsuitfiled,>,INTEGER,>,
+suitfilled_amt,>,INTEGER,>,
+suitfilled_numberofsuitfiled,>,INTEGER,>,
+writtenoff_amt,>,INTEGER,>,
+writtenoff_numberofsuitfiled,>,INTEGER,>,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_dis_diorpgobs_oi"";",,,,
+_id,>,INTEGER,>,
+dishonoredcheque,>,INTEGER,>,
+wilfuldefault,>,INTEGER,>,
+invoked_amt,>,INTEGER,>,
+invoked_numberofsuitfiled,>,INTEGER,>,
+overduecf_amt,>,INTEGER,>,
+overduecf_numberofsuitfiled,>,INTEGER,>,
+settled_amt,>,INTEGER,>,
+settled_numberofsuitfiled,>,INTEGER,>,
+suitfilled_amt,>,INTEGER,>,
+suitfilled_numberofsuitfiled,>,INTEGER,>,
+writtenoff_amt,>,INTEGER,>,
+writtenoff_numberofsuitfiled,>,INTEGER,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_dis_diorpgobs_tot"";",,,,
+_id,>,INTEGER,>,
+dishonoredcheque,>,INTEGER,>,
+wilfuldefault,>,INTEGER,>,
+invoked_amt,>,INTEGER,>,
+invoked_numberofsuitfiled,>,INTEGER,>,
+overduecf_amt,>,INTEGER,>,
+overduecf_numberofsuitfiled,>,INTEGER,>,
+settled_amt,>,INTEGER,>,
+settled_numberofsuitfiled,>,INTEGER,>,
+suitfilled_amt,>,INTEGER,>,
+suitfilled_numberofsuitfiled,>,INTEGER,>,
+writtenoff_amt,>,INTEGER,>,
+writtenoff_numberofsuitfiled,>,INTEGER,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_dis_diorpgobs_yi"";",,,,
+_id,>,INTEGER,>,
+dishonoredcheque,>,INTEGER,>,
+wilfuldefault,>,INTEGER,>,
+invoked_amt,>,INTEGER,>,
+invoked_numberofsuitfiled,>,INTEGER,>,
+overduecf_amt,>,INTEGER,>,
+overduecf_numberofsuitfiled,>,INTEGER,>,
+settled_amt,>,INTEGER,>,
+settled_numberofsuitfiled,>,INTEGER,>,
+suitfilled_amt,>,INTEGER,>,
+suitfilled_numberofsuitfiled,>,INTEGER,>,
+writtenoff_amt,>,INTEGER,>,
+writtenoff_numberofsuitfiled,>,INTEGER,>,
+,,,,
+".""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_edil24m"";",,,,
+_id,>,INTEGER,>,
+creditlender,>,VARCHAR,>,
+enquiryamt,>,INTEGER,>,
+enquirydt,>,TIMESTAMP,>,
+enquirypurpose,>,VARCHAR,>,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_ess_eoi_noe"";",,,,
+_id,>,INTEGER,>,
+greaterthan24month,>,INTEGER,>,
+month1,>,INTEGER,>,
+month12to24,>,INTEGER,>,
+month2to3,>,INTEGER,>,
+month4to6,>,INTEGER,>,
+month7to12,>,TIMESTAMP,>,
+mostrecentdate,>,INTEGER,>,
+total,,,,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_ess_et_noe"";",,,,
+_id,>,INTEGER,>,
+greaterthan24month,>,INTEGER,>,
+month1,>,INTEGER,>,
+month12to24,>,INTEGER,>,
+month2to3,>,INTEGER,>,
+month4to6,>,INTEGER,>,
+month7to12,>,INTEGER,>,
+total,>,INTEGER,>,
+mostrecentdate,>,TIMESTAMP,>,Full null
+,,,,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_ess_eyi_noe"";",,,,
+_id,>,INTEGER,>,
+greaterthan24month,>,INTEGER,>,
+month1,>,INTEGER,>,
+month12to24,>,INTEGER,>,
+month2to3,>,INTEGER,>,
+month4to6,>,INTEGER,>,
+month7to12,>,INTEGER,>,
+mostrecentdate,>,TIMESTAMP,>,
+total,>,INTEGER,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_lds_locinf"";",,,,
+_id,>,INTEGER,>,
+address,>,VARCHAR,>,
+borrowerofficelocationtype,>,VARCHAR,>,
+firstreporteddate,>,TIMESTAMP,>,
+lastreporteddate,>,TIMESTAMP,>,
+numberofinstitutions,>,INTEGER,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_locdetail"";",,,,
+_id,>,INTEGER,>,
+contactnumber,>,INTEGER,>,
+faxnumber,>,INTEGER,>,
+message,>,VARCHAR,>,
+locationdispute,>,VARCHAR,>,Full null
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_obbcfaacs_oi_fx_nonstd"";",,no data,,
+,,,,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_obbcfaacs_oi_fx_std"";",,,,
+_id,>,INTEGER,>,
+dpd0_count,>,VARCHAR,>,Full null
+dpd0_value,>,VARCHAR,>,Full null
+dpd1to30_count,>,VARCHAR,>,Full null
+dpd1to30_value,>,VARCHAR,>,Full null
+dpd31to60_count,>,VARCHAR,>,Full null
+dpd31to60_value,>,VARCHAR,>,Full null
+dpd61to90_count,>,VARCHAR,>,Full null
+dpd61to90_value,>,VARCHAR,>,Full null
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_obbcfaacs_oi_fx_tot"";",,,,
+_id,>,INTEGER,>,
+count,>,INTEGER,>,
+value,>,INTEGER,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_obbcfaacs_oi_nf_nonstd"";",,,,
+_id,>,INTEGER,>,
+dbt_count,>,VARCHAR,>,Full null
+dbt_value,>,VARCHAR,>,Full null
+loss_count,>,VARCHAR,>,Full null
+loss_value,>,VARCHAR,>,Full null
+sub_count,>,VARCHAR,>,Full null
+sub_value,>,VARCHAR,>,Full null
+dpd91to180_count,>,VARCHAR,>,Full null
+dpd91to180_value,>,VARCHAR,>,Full null
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_obbcfaacs_oi_nf_std"";",,,,
+_id,>,INTEGER,>,
+dpd0_count,>,INTEGER,>,
+dpd0_value,>,INTEGER,>,
+dpd1to30_count,>,VARCHAR,>,Full null
+dpd1to30_value,>,VARCHAR,>,Full null
+dpd31to60_count,>,VARCHAR,>,Full null
+dpd31to60_value,>,VARCHAR,>,Full null
+dpd61to90_count,>,VARCHAR,>,Full null
+dpd61to90_value,>,VARCHAR,>,Full null
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_obbcfaacs_oi_nf_total"";",,,,
+_id,>,INTEGER,>,
+count,>,INTEGER,>,
+value,>,INTEGER,>,
+,,,,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_obbcfaacs_oi_tl_nonstd"";",,,,
+_id,>,INTEGER,>,
+dbt_count,>,VARCHAR,>,Full null
+dbt_value,>,VARCHAR,>,Full null
+loss_count,>,VARCHAR,>,Full null
+loss_value,>,VARCHAR,>,Full null
+sub_count,>,VARCHAR,>,Full null
+sub_value,>,VARCHAR,>,Full null
+dpd91to180_count,>,VARCHAR,>,Full null
+dpd91to180_value,>,VARCHAR,>,Full null
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_obbcfaacs_oi_tl_tot"";",,,,
+_id,>,INTEGER,>,
+count,>,INTEGER,>,
+value,>,INTEGER,>,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_obbcfaacs_oi_tot_nonstd"";",,,,
+_id,>,INTEGER,>,
+dbt_count,>,INTEGER,>,
+dbt_value,>,INTEGER,>,
+loss_count,>,INTEGER,>,
+loss_value,>,INTEGER,>,
+sub_count,>,INTEGER,>,
+sub_value,>,INTEGER,>,
+dpd91to180_count,>,INTEGER,>,
+dpd91to180_value,>,INTEGER,>,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_obbcfaacs_oi_tot_std"";",,,,
+_id,>,INTEGER,>,
+dpd0_count,>,INTEGER,>,
+dpd0_value,>,INTEGER,>,
+dpd1to30_count,>,INTEGER,>,
+dpd1to30_value,>,INTEGER,>,
+dpd31to60_count,>,INTEGER,>,
+dpd31to60_value,>,INTEGER,>,
+dpd61to90_count,>,INTEGER,>,
+dpd61to90_value,>,INTEGER,>,
+,,,,
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_obbcfaacs_oi_wc_nonstd"";",,,,
+_id,>,INTEGER,>,
+dbt_count,>,VARCHAR,>,Full null
+dbt_value,>,VARCHAR,>,Full null
+loss_count,>,VARCHAR,>,Full null
+loss_value,>,VARCHAR,>,Full null
+sub_count,>,VARCHAR,>,Full null
+sub_value,>,VARCHAR,>,Full null
+dpd91to180_count,>,VARCHAR,>,Full null
+dpd91to180_value,>,VARCHAR,>,Full null
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_obbcfaacs_oi_wc_std"";",,,,
+_id,>,INTEGER,>,
+dbt_count,>,VARCHAR,>,Full null
+dbt_value,>,VARCHAR,>,Full null
+loss_count,>,VARCHAR,>,Full null
+loss_value,>,VARCHAR,>,Full null
+sub_count,>,VARCHAR,>,Full null
+sub_value,>,VARCHAR,>,Full null
+dpd91to180_count,>,VARCHAR,>,Full null
+dpd91to180_value,>,VARCHAR,>,Full null
+,,,,
+"""gonogocustomerapplication"".""gng_acrl_mbcjr_fl_jo_rr_ps_obbcfaacs_oi_wc_tot"";",,,,
+_id,>,INTEGER,>,
+count,>,INTEGER,>,
+value,>,INTEGER,>,
